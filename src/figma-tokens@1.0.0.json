@@ -482,7 +482,7 @@
       },
       "focus-width": {
         "$type": "number",
-        "$value": "{05}"
+        "$value": 0.5
       }
     }
   },
@@ -773,7 +773,7 @@
     }
   }
 },
-{
+  {
   "Components": {
     "Table": {
       "table-header-text-color": {
@@ -1256,7 +1256,7 @@
       },
       "focus-width": {
         "$type": "number",
-        "$value": "{05}"
+        "$value": 0.5
       }
     }
   },
