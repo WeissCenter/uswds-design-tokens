@@ -1,0 +1,7 @@
+{
+    "base_folder": "./tokens/uswds-base",
+    "theme_folder": "./tokens/uswds-theme",
+    "base_output_JSON_path": "../dist/json/uswds-base.json",
+    "theme_output_JSON_path": "../dist/json/uswds-theme.json",
+    "sd_build_path": "../dist/"
+}

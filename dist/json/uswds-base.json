@@ -16,7 +16,7 @@
       "description": "Large border radius"
     }
   },
-  "colors": {
+  "color": {
     "black-transparent": {
       "5": {
         "value": "rgba(0, 0, 0, 0.01)",
