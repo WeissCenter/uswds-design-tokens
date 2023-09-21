@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Sep 2023 18:07:43 GMT
+ * Generated on Thu, 21 Sep 2023 20:26:18 GMT
  */
 
 :root {
-  --uswds-z-index-bottom: -100;
+  --uswds-z-index-bottom: calc(-100);
   --uswds-z-index-top: 99999;
   --uswds-z-index-auto: auto;
   --uswds-z-index-500: 500;
@@ -13,8 +13,8 @@
   --uswds-z-index-200: 200;
   --uswds-z-index-100: 100;
   --uswds-z-index-0: 0;
-  --uswds-spacing-units-neg-2px: -2px;
-  --uswds-spacing-units-neg-1px: -1px;
+  --uswds-spacing-units-neg-2px: calc(-2px);
+  --uswds-spacing-units-neg-1px: calc(-1px);
   --uswds-spacing-units-2px: 2px;
   --uswds-spacing-units-1px: 1px;
   --uswds-spacing-units-base-spacing-unit: 8px;
@@ -50,31 +50,11 @@
   --uswds-opacity-20: .2;
   --uswds-opacity-10: .1;
   --uswds-opacity-0: 0;
-  --uswds-font-type-scale-micro: 10px;
-  --uswds-font-type-scale-20: 140px;
-  --uswds-font-type-scale-19: 120px;
-  --uswds-font-type-scale-18: 80px;
-  --uswds-font-type-scale-17: 64px;
-  --uswds-font-type-scale-16: 56px;
-  --uswds-font-type-scale-15: 48px;
-  --uswds-font-type-scale-14: 40px;
-  --uswds-font-type-scale-13: 36px;
-  --uswds-font-type-scale-12: 32px;
-  --uswds-font-type-scale-11: 28px;
-  --uswds-font-type-scale-10: 24px;
-  --uswds-font-type-scale-9: 22px;
-  --uswds-font-type-scale-8: 20px;
-  --uswds-font-type-scale-7: 18px;
-  --uswds-font-type-scale-6: 17px;
-  --uswds-font-type-scale-5: 16px;
-  --uswds-font-type-scale-4: 15px;
-  --uswds-font-type-scale-3: 14px;
-  --uswds-font-type-scale-2: 13px;
-  --uswds-font-type-scale-1: 12px;
   --uswds-font-stack-monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
-  --uswds-font-stack-helvetica: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  --uswds-font-stack-helvetica: calc("Helvetica Neue", Helvetica, Roboto, Arial, sans-serif);
   --uswds-font-stack-georgia: "Georgia", "Cambria", "Times New Roman", "Times", serif;
-  --uswds-font-stack-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --uswds-font-stack-system: calc(-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol");
+  --uswds-font-size-base: 16px;
   --uswds-font-measure-none: none;
   --uswds-font-measure-6: 88ex;
   --uswds-font-measure-5: 74ex;
@@ -88,9 +68,9 @@
   --uswds-font-line-height-3: 1.35;
   --uswds-font-line-height-2: 1.2;
   --uswds-font-line-height-1: 1;
-  --uswds-font-letter-spacing-neg-1: -0.01em;
-  --uswds-font-letter-spacing-neg-2: -0.02em;
-  --uswds-font-letter-spacing-neg-3: -0.03em;
+  --uswds-font-letter-spacing-neg-1: calc(-0.01em);
+  --uswds-font-letter-spacing-neg-2: calc(-0.02em);
+  --uswds-font-letter-spacing-neg-3: calc(-0.03em);
   --uswds-font-letter-spacing-auto: initial;
   --uswds-font-letter-spacing-3: 0.15em;
   --uswds-font-letter-spacing-2: 0.1em;
@@ -672,9 +652,30 @@
   --uswds-spacing-units-3: calc(var(--uswds-spacing-units-base-spacing-unit) * 3);
   --uswds-spacing-units-2: calc(var(--uswds-spacing-units-base-spacing-unit) * 2);
   --uswds-spacing-units-1: var(--uswds-spacing-units-base-spacing-unit);
+  --uswds-font-type-scale-micro: calc(var(--uswds-font-size-base) * .625);
+  --uswds-font-type-scale-20: calc(var(--uswds-font-size-base) * 8.75);
+  --uswds-font-type-scale-19: calc(var(--uswds-font-size-base) * 7.5);
+  --uswds-font-type-scale-18: calc(var(--uswds-font-size-base) * 5);
+  --uswds-font-type-scale-17: calc(var(--uswds-font-size-base) * 4);
+  --uswds-font-type-scale-16: calc(var(--uswds-font-size-base) * 3.5);
+  --uswds-font-type-scale-15: calc(var(--uswds-font-size-base) * 3);
+  --uswds-font-type-scale-14: calc(var(--uswds-font-size-base) * 2.5);
+  --uswds-font-type-scale-13: calc(var(--uswds-font-size-base) * 2.25);
+  --uswds-font-type-scale-12: calc(var(--uswds-font-size-base) * 2);
+  --uswds-font-type-scale-11: calc(var(--uswds-font-size-base) * 1.75);
+  --uswds-font-type-scale-10: calc(var(--uswds-font-size-base) * 1.5);
+  --uswds-font-type-scale-9: calc(var(--uswds-font-size-base) * 1.375);
+  --uswds-font-type-scale-8: calc(var(--uswds-font-size-base) * 1.25);
+  --uswds-font-type-scale-7: calc(var(--uswds-font-size-base) * 1.125);
+  --uswds-font-type-scale-6: calc(var(--uswds-font-size-base) * 1.0625);
+  --uswds-font-type-scale-5: var(--uswds-font-size-base);
+  --uswds-font-type-scale-4: calc(var(--uswds-font-size-base) * .9375);
+  --uswds-font-type-scale-3: calc(var(--uswds-font-size-base) * .875);
+  --uswds-font-type-scale-2: calc(var(--uswds-font-size-base) * .8125);
+  --uswds-font-type-scale-1: calc(var(--uswds-font-size-base) * .75);
   --uswds-font-family-roboto-mono: "Roboto Mono", var(--uswds-font-stack-monospace);
   --uswds-font-family-merriweather: "Merriweather", var(--uswds-font-stack-georgia);
-  --uswds-font-family-source-sans-pro: "Source Sans Pro Web", var(--uswds-font-stack-helvetica);
+  --uswds-font-family-source-sans-pro: calc("Source Sans Pro Web", var(--uswds-font-stack-helvetica));
   --uswds-border-radius-sm: var(--uswds-spacing-units-2px);
   --uswds-border-radius-lg: var(--uswds-spacing-units-1);
   --uswds-border-radius-md: calc(var(--uswds-spacing-units-05));

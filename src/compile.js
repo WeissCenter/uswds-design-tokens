@@ -61,8 +61,8 @@ registerTransforms(style_dictionary);
 style_dictionary.registerTransform({
   type: `value`,
   transitive: true,
-  name: `figma/calc`,
-  matcher: ({ value }) => typeof value === 'string' && value?.includes('*'),
+  name: `aem/calc`,
+  matcher: ({ value }) => typeof value === 'string' && (value?.includes('*') || value?.includes('/') || value?.includes('+') || value?.includes('-')),
   transformer: ({ value }) => `calc(${value})`,
 });
 
@@ -82,7 +82,7 @@ const sd = style_dictionary.extend({
               'ts/color/css/hexrgba',
               'ts/color/modifiers',
               'name/cti/kebab',
-              'figma/calc'
+              'aem/calc'
           ],
           prefix: config.css_var_prefix,
           buildPath: config.sd_build_path + 'css/',
@@ -123,7 +123,7 @@ const sd_theme = style_dictionary.extend({
               'ts/color/css/hexrgba',
               'ts/color/modifiers',
               'name/cti/kebab',
-              'figma/calc'
+              'aem/calc'
           ],
           prefix: config.css_var_prefix,
           buildPath: config.sd_build_path + 'css/',

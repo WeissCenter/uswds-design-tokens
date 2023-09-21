@@ -1,106 +1,108 @@
+// Values mapped to original hardcoded USWDS px values, converted with the underlying assumption that the base font size is 16px.
+
 module.exports = {
         "micro": {
-            "value": "10px",
+            "value": "{font.size.base} * .625",
             "type": "sizing",
             "description": "Micro"
         },
         "1": {
-            "value": "12px",
+            "value": "{font.size.base} * .75",
             "type": "sizing",
             "description": "Type Scale 1"
         },
         "2": {
-            "value": "13px",
+            "value": "{font.size.base} * .8125",
             "type": "sizing",
             "description": "Type Scale 2"
         },
         "3": {
-            "value": "14px",
+            "value": "{font.size.base} * .875",
             "type": "sizing",
             "description": "Type Scale 3"
         },
         "4": {
-            "value": "15px",
+            "value": "{font.size.base} * .9375",
             "type": "sizing",
             "description": "Type Scale 4"
         },
         "5": {
-            "value": "16px",
+            "value": "{font.size.base}",
             "type": "sizing",
             "description": "Type Scale 5"
         },
         "6": {
-            "value": "17px",
+            "value": "{font.size.base} * 1.0625",
             "type": "sizing",
             "description": "Type Scale 6"
         },
         "7": {
-            "value": "18px",
+            "value": "{font.size.base} * 1.125",
             "type": "sizing",
             "description": "Type Scale 7"
         },
         "8": {
-            "value": "20px",
+            "value": "{font.size.base} * 1.25",
             "type": "sizing",
             "description": "Type Scale 8"
         },
         "9": {
-            "value": "22px",
+            "value": "{font.size.base} * 1.375",
             "type": "sizing",
             "description": "Type Scale 9"
         },
         "10": {
-            "value": "24px",
+            "value": "{font.size.base} * 1.5",
             "type": "sizing",
             "description": "Type Scale 10"
         },
         "11": {
-            "value": "28px",
+            "value": "{font.size.base} * 1.75",
             "type": "sizing",
             "description": "Type Scale 11"
         },
         "12": {
-            "value": "32px",
+            "value": "{font.size.base} * 2",
             "type": "sizing",
             "description": "Type Scale 12"
         },
         "13": {
-            "value": "36px",
+            "value": "{font.size.base} * 2.25",
             "type": "sizing",
             "description": "Type Scale 13"
         },
         "14": {
-            "value": "40px",
+            "value": "{font.size.base} * 2.5",
             "type": "sizing",
             "description": "Type Scale 14"
         },
         "15": {
-            "value": "48px",
+            "value": "{font.size.base} * 3",
             "type": "sizing",
             "description": "Type Scale 15"
         },
         "16": {
-            "value": "56px",
+            "value": "{font.size.base} * 3.5",
             "type": "sizing",
             "description": "Type Scale 16"
         },
         "17": {
-            "value": "64px",
+            "value": "{font.size.base} * 4",
             "type": "sizing",
             "description": "Type Scale 17"
         },
         "18": {
-            "value": "80px",
+            "value": "{font.size.base} * 5",
             "type": "sizing",
             "description": "Type Scale 18"
         },
         "19": {
-            "value": "120px",
+            "value": "{font.size.base} * 7.5",
             "type": "sizing",
             "description": "Type Scale 19"
         },
         "20": {
-            "value": "140px",
+            "value": "{font.size.base} * 8.75",
             "type": "sizing",
             "description": "Type Scale 20"
         }
