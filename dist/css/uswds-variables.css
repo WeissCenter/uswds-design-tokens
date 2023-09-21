@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Sep 2023 13:45:01 GMT
+ * Generated on Thu, 21 Sep 2023 18:07:43 GMT
  */
 
 :root {
@@ -71,12 +71,30 @@
   --uswds-font-type-scale-3: 14px;
   --uswds-font-type-scale-2: 13px;
   --uswds-font-type-scale-1: 12px;
+  --uswds-font-stack-monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  --uswds-font-stack-helvetica: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  --uswds-font-stack-georgia: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  --uswds-font-stack-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --uswds-font-measure-none: none;
+  --uswds-font-measure-6: 88ex;
+  --uswds-font-measure-5: 74ex;
+  --uswds-font-measure-4: 68ex;
+  --uswds-font-measure-3: 64ex;
+  --uswds-font-measure-2: 60ex;
+  --uswds-font-measure-1: 44ex;
   --uswds-font-line-height-6: 1.75;
   --uswds-font-line-height-5: 1.62;
   --uswds-font-line-height-4: 1.5;
   --uswds-font-line-height-3: 1.35;
   --uswds-font-line-height-2: 1.2;
   --uswds-font-line-height-1: 1;
+  --uswds-font-letter-spacing-neg-1: -0.01em;
+  --uswds-font-letter-spacing-neg-2: -0.02em;
+  --uswds-font-letter-spacing-neg-3: -0.03em;
+  --uswds-font-letter-spacing-auto: initial;
+  --uswds-font-letter-spacing-3: 0.15em;
+  --uswds-font-letter-spacing-2: 0.1em;
+  --uswds-font-letter-spacing-1: 0.025em;
   --uswds-flex-fill: 1 1 0;
   --uswds-flex-auto: auto;
   --uswds-flex-12: 12 0 0;
@@ -654,6 +672,9 @@
   --uswds-spacing-units-3: calc(var(--uswds-spacing-units-base-spacing-unit) * 3);
   --uswds-spacing-units-2: calc(var(--uswds-spacing-units-base-spacing-unit) * 2);
   --uswds-spacing-units-1: var(--uswds-spacing-units-base-spacing-unit);
+  --uswds-font-family-roboto-mono: "Roboto Mono", var(--uswds-font-stack-monospace);
+  --uswds-font-family-merriweather: "Merriweather", var(--uswds-font-stack-georgia);
+  --uswds-font-family-source-sans-pro: "Source Sans Pro Web", var(--uswds-font-stack-helvetica);
   --uswds-border-radius-sm: var(--uswds-spacing-units-2px);
   --uswds-border-radius-lg: var(--uswds-spacing-units-1);
   --uswds-border-radius-md: calc(var(--uswds-spacing-units-05));

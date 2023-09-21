@@ -6,13 +6,13 @@ module.exports = {
     },
     "font-size": {
         "value":{
-            "fontSize": "{theme-font-size.sm}"
+            "fontSize": "{theme.font.settings.size.sm}"
         },
         "type": "typography",
         "description": "Breadcrumb font size"
     }, 
     "font-family": {
-        "value": "body",
+        "value": "{theme.font.settings.role.body}",
         "type": "string",
         "description": "Breadcrumb font family"
     }, 

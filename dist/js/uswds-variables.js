@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Sep 2023 13:45:01 GMT
+ * Generated on Thu, 21 Sep 2023 16:30:36 GMT
  */
 
 export const borderRadiusSm = "2px"; // Small border radius
@@ -546,12 +546,19 @@ export const flex11 = "11 0 0"; // Value provided to flex property
 export const flex12 = "12 0 0"; // Value provided to flex property
 export const flexAuto = "auto"; // Value provided to flex property
 export const flexFill = "1 1 0"; // Value provided to flex property
+export const fontFamilySourceSansPro = "\"Source Sans Pro Web\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif"; // Source Sans Pro font stack
+export const fontFamilyMerriweather = "\"Merriweather\", \"Georgia\", \"Cambria\", \"Times New Roman\", \"Times\", serif"; // Merriweather font stack
+export const fontFamilyRobotoMono = "\"Roboto Mono\", \"Bitstream Vera Sans Mono\", \"Consolas\", \"Courier\", monospace"; // Roboto Mono font stack
 export const fontLineHeight1 = "1px"; // Line Height 1
 export const fontLineHeight2 = "1.2px"; // Line Height 2
 export const fontLineHeight3 = "1.35px"; // Line Height 3
 export const fontLineHeight4 = "1.5px"; // Line Height 4
 export const fontLineHeight5 = "1.62px"; // Line Height 5
 export const fontLineHeight6 = "1.75px"; // Line Height 6
+export const fontStackSystem = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""; // System font stack
+export const fontStackGeorgia = "\"Georgia\", \"Cambria\", \"Times New Roman\", \"Times\", serif"; // Georgia font stack
+export const fontStackHelvetica = "\"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif"; // Helvetica font stack
+export const fontStackMonospace = "\"Bitstream Vera Sans Mono\", \"Consolas\", \"Courier\", monospace"; // Monospace font stack
 export const fontTypeScale1 = "12px"; // Type Scale 1
 export const fontTypeScale2 = "13px"; // Type Scale 2
 export const fontTypeScale3 = "14px"; // Type Scale 3

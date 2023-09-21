@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { registerTransforms } = require('@tokens-studio/sd-transforms');
-const StyleDictionary = require('style-dictionary');
+const style_dictionary = require('style-dictionary');
 let config = require('./config.json');
 
 // Step 1: Compile our design tokens from their folders into a single JSON file
@@ -55,10 +55,10 @@ console.log('Theme design tokens combined and saved to:' + config.output_JSON_pa
 // Step 2: Take our compiled JSON file and convert it to CSS and JS variables
 
 // Register the Token Studio transform with Style Dictionary
-registerTransforms(StyleDictionary);
+registerTransforms(style_dictionary);
 
 // Add a custom transform to insure that math calculations are wrapped within "calc()" when output to CSS variables
-StyleDictionary.registerTransform({
+style_dictionary.registerTransform({
   type: `value`,
   transitive: true,
   name: `figma/calc`,
@@ -66,19 +66,9 @@ StyleDictionary.registerTransform({
   transformer: ({ value }) => `calc(${value})`,
 });
 
-const sd = StyleDictionary.extend({
+const sd = style_dictionary.extend({
   source: [config.output_JSON_path + config.base_JSON_filename],
   platforms: {
-      js: {
-          transformGroup: 'tokens-studio',
-          buildPath: config.sd_build_path + 'js/',
-          files: [
-              {
-                  destination: config.sd_base_filename + '.js',
-                  format: 'javascript/es6',
-              },
-          ],
-      },
       css: {
           transforms: [
               'ts/opacity',
@@ -116,20 +106,10 @@ sd.buildAllPlatforms();
 console.log('Base design tokens converted to CSS variables and saved to:' + config.sd_build_path + 'css/variables.css');
 console.log('Base design tokens converted to JS variables and saved to:' + config.sd_build_path + 'js/variables.js');
 
-const sd_theme = StyleDictionary.extend({
+const sd_theme = style_dictionary.extend({
   include: [config.output_JSON_path + config.base_JSON_filename],
   source: [config.output_JSON_path + config.theme_JSON_filename],
   platforms: {
-      js: {
-          transformGroup: 'tokens-studio',
-          buildPath: config.sd_build_path + 'js/',
-          files: [
-              {
-                  destination: config.sd_theme_filename + '.js',
-                  format: 'javascript/es6',
-              },
-          ],
-      },
       css: {
           transforms: [
               'ts/opacity',
@@ -155,7 +135,7 @@ const sd_theme = StyleDictionary.extend({
           ],
           options: {
             "outputReferences": true,
-
+            transitive: true
           }
       },
   },
