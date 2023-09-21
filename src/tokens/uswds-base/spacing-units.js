@@ -4,6 +4,11 @@ module.exports = {
             "type": "sizing",
             "description": "Base spacing unit"
         },
+        "0": {
+            "value": "0",
+            "type": "sizing",
+            "description": "Literal 0px"
+        },
         "1px": {
             "value": "1px",
             "type": "sizing",

@@ -1,7 +1,11 @@
 {
     "base_folder": "./tokens/uswds-base",
-    "theme_folder": "./tokens/uswds-theme",
-    "base_output_JSON_path": "../dist/json/uswds-base.json",
-    "theme_output_JSON_path": "../dist/json/uswds-theme.json",
-    "sd_build_path": "../dist/"
+    "theme_folder": "./tokens/uswds-theme/light-mode/",
+    "output_JSON_path": "../dist/json/",
+    "base_JSON_filename": "uswds-base.json",
+    "theme_JSON_filename": "uswds-theme.json",
+    "sd_build_path": "../dist/",
+    "sd_base_filename": "uswds-variables",
+    "sd_theme_filename": "uswds-theme-variables",
+    "css_var_prefix": "uswds"
 }

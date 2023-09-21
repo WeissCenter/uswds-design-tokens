@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
     "5": {
         "value": "#e7f2f5",
         "type": "color",

@@ -7,12 +7,12 @@ let config = require('./config.json');
 // Step 1: Compile our design tokens from their folders into a single JSON file
 
 const base_combined_tokens = {};
+const theme_combined_tokens = {};
 
 // Get literal folder paths from config
 config.base_folder = path.join(__dirname, config.base_folder);
 config.theme_folder = path.join(__dirname, config.theme_folder);
-config.base_output_JSON_path = path.join(__dirname, config.base_output_JSON_path);
-config.theme_output_JSON_path = path.join(__dirname, config.theme_output_JSON_path);
+config.output_JSON_path = path.join(__dirname, config.output_JSON_path);
 config.sd_build_path = path.join(__dirname, config.sd_build_path);
 
 function processFolder(folder_path, target) {
@@ -38,11 +38,18 @@ function processFolder(folder_path, target) {
 
 // Run the base folder through the processor and save the result to distribution folder
 processFolder(config.base_folder, base_combined_tokens);
-
 const base_combined_tokens_JSON = JSON.stringify(base_combined_tokens, null, 2);
-fs.writeFileSync(config.base_output_JSON_path, base_combined_tokens_JSON);
+fs.writeFileSync(config.output_JSON_path + config.base_JSON_filename, base_combined_tokens_JSON);
 
-console.log('Base design tokens combined and saved to:' + config.base_output_JSON_path);
+console.log('Base design tokens combined and saved to:' + config.output_JSON_path + config.base_JSON_filename);
+
+// Run the theme folder through the processor and save the result to distribution folder
+processFolder(config.theme_folder, theme_combined_tokens);
+
+const theme_combined_tokens_JSON = JSON.stringify(theme_combined_tokens, null, 2);
+fs.writeFileSync(config.output_JSON_path + config.theme_JSON_filename, theme_combined_tokens_JSON);
+
+console.log('Theme design tokens combined and saved to:' + config.output_JSON_path + config.theme_JSON_filename);
 
 
 // Step 2: Take our compiled JSON file and convert it to CSS and JS variables
@@ -50,15 +57,24 @@ console.log('Base design tokens combined and saved to:' + config.base_output_JSO
 // Register the Token Studio transform with Style Dictionary
 registerTransforms(StyleDictionary);
 
+// Add a custom transform to insure that math calculations are wrapped within "calc()" when output to CSS variables
+StyleDictionary.registerTransform({
+  type: `value`,
+  transitive: true,
+  name: `figma/calc`,
+  matcher: ({ value }) => typeof value === 'string' && value?.includes('*'),
+  transformer: ({ value }) => `calc(${value})`,
+});
+
 const sd = StyleDictionary.extend({
-  source: [config.base_output_JSON_path],
+  source: [config.output_JSON_path + config.base_JSON_filename],
   platforms: {
       js: {
           transformGroup: 'tokens-studio',
           buildPath: config.sd_build_path + 'js/',
           files: [
               {
-                  destination: 'variables.js',
+                  destination: config.sd_base_filename + '.js',
                   format: 'javascript/es6',
               },
           ],
@@ -68,7 +84,6 @@ const sd = StyleDictionary.extend({
               'ts/opacity',
               'ts/size/lineheight',
               'ts/typography/fontWeight',
-              'ts/resolveMath',
               'ts/size/css/letterspacing',
               'ts/typography/css/fontFamily',
               'ts/typography/css/shorthand',
@@ -77,14 +92,20 @@ const sd = StyleDictionary.extend({
               'ts/color/css/hexrgba',
               'ts/color/modifiers',
               'name/cti/kebab',
+              'figma/calc'
           ],
+          prefix: config.css_var_prefix,
           buildPath: config.sd_build_path + 'css/',
           files: [
               {
-                  destination: 'variables.css',
+                  destination: config.sd_base_filename + '.css',
                   format: 'css/variables',
               },
           ],
+          options: {
+            "outputReferences": true,
+
+          }
       },
   },
 });
@@ -95,3 +116,50 @@ sd.buildAllPlatforms();
 console.log('Base design tokens converted to CSS variables and saved to:' + config.sd_build_path + 'css/variables.css');
 console.log('Base design tokens converted to JS variables and saved to:' + config.sd_build_path + 'js/variables.js');
 
+const sd_theme = StyleDictionary.extend({
+  include: [config.output_JSON_path + config.base_JSON_filename],
+  source: [config.output_JSON_path + config.theme_JSON_filename],
+  platforms: {
+      js: {
+          transformGroup: 'tokens-studio',
+          buildPath: config.sd_build_path + 'js/',
+          files: [
+              {
+                  destination: config.sd_theme_filename + '.js',
+                  format: 'javascript/es6',
+              },
+          ],
+      },
+      css: {
+          transforms: [
+              'ts/opacity',
+              'ts/size/lineheight',
+              'ts/typography/fontWeight',
+              'ts/size/css/letterspacing',
+              'ts/typography/css/fontFamily',
+              'ts/typography/css/shorthand',
+              'ts/border/css/shorthand',
+              'ts/shadow/css/shorthand',
+              'ts/color/css/hexrgba',
+              'ts/color/modifiers',
+              'name/cti/kebab',
+              'figma/calc'
+          ],
+          prefix: config.css_var_prefix,
+          buildPath: config.sd_build_path + 'css/',
+          files: [
+              {
+                  destination: config.sd_theme_filename + '.css',
+                  format: 'css/variables',
+              },
+          ],
+          options: {
+            "outputReferences": true,
+
+          }
+      },
+  },
+});
+
+sd_theme.cleanAllPlatforms();
+sd_theme.buildAllPlatforms();

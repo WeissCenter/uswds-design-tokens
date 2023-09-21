@@ -1,5 +1,4 @@
 module.exports = {
-    "type-scale": {
         "micro": {
             "value": "10px",
             "type": "sizing",
@@ -106,4 +105,3 @@ module.exports = {
             "description": "Type Scale 20"
         }
     }
-}
