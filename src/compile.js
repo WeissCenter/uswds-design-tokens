@@ -28,7 +28,7 @@ function processFolder(folder_path, target) {
       processFolder(file_path, target[file]);
     } else if (file.endsWith('.js')) {
       // If we find a js file, require it and set the key reference to be the file name
-      // IE: 'spacing-units.js' becomes 'spacing-units' on the parent JSON object
+      // IE: 'spacing.js' becomes 'spacing' on the parent JSON object
       const tokens = require(file_path);
       const key_name = path.parse(file).name;
       target[key_name] = tokens;
@@ -46,7 +46,9 @@ console.log('Base design tokens combined and saved to:' + config.output_JSON_pat
 // Run the theme folder through the processor and save the result to distribution folder
 processFolder(config.theme_folder, theme_combined_tokens);
 
-const theme_combined_tokens_JSON = JSON.stringify(theme_combined_tokens, null, 2);
+const full_tokens = Object.assign({}, base_combined_tokens, theme_combined_tokens);
+
+const theme_combined_tokens_JSON = JSON.stringify(full_tokens, null, 2);
 fs.writeFileSync(config.output_JSON_path + config.theme_JSON_filename, theme_combined_tokens_JSON);
 
 console.log('Theme design tokens combined and saved to:' + config.output_JSON_path + config.theme_JSON_filename);
@@ -62,7 +64,7 @@ style_dictionary.registerTransform({
   type: `value`,
   transitive: true,
   name: `aem/calc`,
-  matcher: ({ value }) => typeof value === 'string' && (value?.includes('*') || value?.includes('/') || value?.includes('+') || value?.includes('-')),
+  matcher: ({ value }) => typeof value === 'string' && (value?.includes('*') || value?.includes('/') || value?.includes('+') || (value?.indexOf(' - ') > -1)),
   transformer: ({ value }) => `calc(${value})`,
 });
 

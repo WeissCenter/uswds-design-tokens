@@ -1,6 +1,6 @@
 module.exports = {
     "font-family": {
-        "value": "ui",
+        "value": "{font.ui}",
         "type": "string",
         "description": "Button font family"
     }, 
@@ -10,12 +10,12 @@ module.exports = {
         "description": "Button border radius"
     },
     "small-width": {
-        "value": "{spacing-units.6}",
+        "value": "{spacing.6}",
         "type": "sizing",
         "description": "Small button width"
     },
     "stroke-width": {
-        "value": "{spacing-units.2px}",
+        "value": "{spacing.2px}",
         "type": "sizing",
         "description": "Button stroke width"
     }

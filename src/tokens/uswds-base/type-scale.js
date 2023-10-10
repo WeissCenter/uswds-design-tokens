@@ -2,107 +2,107 @@
 
 module.exports = {
         "micro": {
-            "value": "{font.size.base} * .625",
+            "value": "{font-settings.size.base} * .625",
             "type": "sizing",
             "description": "Micro"
         },
         "1": {
-            "value": "{font.size.base} * .75",
+            "value": "{font-settings.size.base} * .75",
             "type": "sizing",
             "description": "Type Scale 1"
         },
         "2": {
-            "value": "{font.size.base} * .8125",
+            "value": "{font-settings.size.base} * .8125",
             "type": "sizing",
             "description": "Type Scale 2"
         },
         "3": {
-            "value": "{font.size.base} * .875",
+            "value": "{font-settings.size.base} * .875",
             "type": "sizing",
             "description": "Type Scale 3"
         },
         "4": {
-            "value": "{font.size.base} * .9375",
+            "value": "{font-settings.size.base} * .9375",
             "type": "sizing",
             "description": "Type Scale 4"
         },
         "5": {
-            "value": "{font.size.base}",
+            "value": "{font-settings.size.base}",
             "type": "sizing",
             "description": "Type Scale 5"
         },
         "6": {
-            "value": "{font.size.base} * 1.0625",
+            "value": "{font-settings.size.base} * 1.0625",
             "type": "sizing",
             "description": "Type Scale 6"
         },
         "7": {
-            "value": "{font.size.base} * 1.125",
+            "value": "{font-settings.size.base} * 1.125",
             "type": "sizing",
             "description": "Type Scale 7"
         },
         "8": {
-            "value": "{font.size.base} * 1.25",
+            "value": "{font-settings.size.base} * 1.25",
             "type": "sizing",
             "description": "Type Scale 8"
         },
         "9": {
-            "value": "{font.size.base} * 1.375",
+            "value": "{font-settings.size.base} * 1.375",
             "type": "sizing",
             "description": "Type Scale 9"
         },
         "10": {
-            "value": "{font.size.base} * 1.5",
+            "value": "{font-settings.size.base} * 1.5",
             "type": "sizing",
             "description": "Type Scale 10"
         },
         "11": {
-            "value": "{font.size.base} * 1.75",
+            "value": "{font-settings.size.base} * 1.75",
             "type": "sizing",
             "description": "Type Scale 11"
         },
         "12": {
-            "value": "{font.size.base} * 2",
+            "value": "{font-settings.size.base} * 2",
             "type": "sizing",
             "description": "Type Scale 12"
         },
         "13": {
-            "value": "{font.size.base} * 2.25",
+            "value": "{font-settings.size.base} * 2.25",
             "type": "sizing",
             "description": "Type Scale 13"
         },
         "14": {
-            "value": "{font.size.base} * 2.5",
+            "value": "{font-settings.size.base} * 2.5",
             "type": "sizing",
             "description": "Type Scale 14"
         },
         "15": {
-            "value": "{font.size.base} * 3",
+            "value": "{font-settings.size.base} * 3",
             "type": "sizing",
             "description": "Type Scale 15"
         },
         "16": {
-            "value": "{font.size.base} * 3.5",
+            "value": "{font-settings.size.base} * 3.5",
             "type": "sizing",
             "description": "Type Scale 16"
         },
         "17": {
-            "value": "{font.size.base} * 4",
+            "value": "{font-settings.size.base} * 4",
             "type": "sizing",
             "description": "Type Scale 17"
         },
         "18": {
-            "value": "{font.size.base} * 5",
+            "value": "{font-settings.size.base} * 5",
             "type": "sizing",
             "description": "Type Scale 18"
         },
         "19": {
-            "value": "{font.size.base} * 7.5",
+            "value": "{font-settings.size.base} * 7.5",
             "type": "sizing",
             "description": "Type Scale 19"
         },
         "20": {
-            "value": "{font.size.base} * 8.75",
+            "value": "{font-settings.size.base} * 8.75",
             "type": "sizing",
             "description": "Type Scale 20"
         }

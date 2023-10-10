@@ -5,12 +5,12 @@ module.exports = {
         "description": "Focus color"
     },
     "offset": {
-        "value": "{spacing-units.0}",
+        "value": "{spacing.0}",
         "type": "sizing",
         "description": "Focus offset"
     },
     "width": {
-        "value": "{spacing-units.05}",
+        "value": "{spacing.05}",
         "type": "sizing",
         "description": "Focus width"
     },

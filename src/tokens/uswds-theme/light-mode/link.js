@@ -1,6 +1,6 @@
 module.exports = {
     "color": {
-        "value": "{theme.primary.base}",
+        "value": "{primary.base}",
         "type": "color",
         "description": "Default link color"
     },
@@ -10,22 +10,22 @@ module.exports = {
         "description": "Visited link color"
     },
     "hover-color": {
-        "value": "{theme.primary.dark}",
+        "value": "{primary.dark}",
         "type": "color",
         "description": "Hover link color"
     },
     "active-color": {
-        "value": "{theme.primary.darker}",
+        "value": "{primary.darker}",
         "type": "color",
         "description": "Active link color"
     },
     "reverse-color": {
-        "value": "{theme.base.lighter}",
+        "value": "{base.lighter}",
         "type": "color",
         "description": "Default reverse link color"
     },
     "reverse-hover-color": {
-        "value": "{theme.base.lightest}",
+        "value": "{base.lightest}",
         "type": "color",
         "description": "Hover reverse link color"
     },

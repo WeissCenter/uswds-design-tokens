@@ -3,9 +3,9 @@
     "theme_folder": "./tokens/uswds-theme/light-mode/",
     "output_JSON_path": "../dist/json/",
     "base_JSON_filename": "uswds-base.json",
-    "theme_JSON_filename": "uswds-theme.json",
+    "theme_JSON_filename": "uswds-full.json",
     "sd_build_path": "../dist/",
-    "sd_base_filename": "uswds-variables",
-    "sd_theme_filename": "uswds-theme-variables",
-    "css_var_prefix": "uswds"
+    "sd_base_filename": "uswds-root-variables",
+    "sd_theme_filename": "uswds-full-variables",
+    "css_var_prefix": "usa"
 }

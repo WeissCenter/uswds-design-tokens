@@ -1,6 +1,6 @@
 module.exports = {
     "font-family": {
-        "value": "ui",
+        "value": "{font.ui}",
         "type": "string",
         "description": "Collection font family"
     }

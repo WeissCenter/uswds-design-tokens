@@ -1,16 +1,16 @@
 module.exports = {
     "font-family": {
-        "value": "ui",
+        "value": "{font.ui}",
         "type": "string",
         "description": "Header font family"
     },
     "max-width": {
-        "value": "{spacing-units.desktop}",
+        "value": "{spacing.desktop}",
         "type": "sizing",
         "description": "Header max width"
     },
     "min-width": {
-        "value": "{spacing-units.desktop}",
+        "value": "{spacing.desktop}",
         "type": "sizing",
         "description": "Header min width"
     },

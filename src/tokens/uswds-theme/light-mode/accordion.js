@@ -1,26 +1,26 @@
 module.exports = {
     "background-color": {
-        "value": "{theme.body.base}",
+        "value": "{body.background}",
         "type": "color",
         "description": "Accordion background color"
     },
     "border-color": {
-        "value": "{theme.base.lightest}",
+        "value": "{base.lightest}",
         "type": "color",
         "description": "Accordion border color"
     },
     "border-width": {
-        "value": "{spacing-units.05}",
+        "value": "{spacing.05}",
         "type": "sizing",
         "description": "Accordion border width"
     },
     "button-background-color": {
-        "value": "{theme.base.lightest}",
+        "value": "{base.lightest}",
         "type": "color",
         "description": "Accordion button background color"
     },
     "font-family": {
-        "value": "body",
+        "value": "{font.body}",
         "type": "string",
         "description": "Accordion font family"
     }
