@@ -1,4 +1,9 @@
 module.exports = {
+    "0": {
+        "value": "{root-border-radius.0}",
+        "type": "sizing",
+        "description": "No border radius"
+    },
     "sm": {
         "value": "{root-border-radius.2px}",
         "type": "sizing",

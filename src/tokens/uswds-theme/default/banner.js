@@ -1,5 +1,5 @@
 module.exports = {
-    "background-color": {
+    "background": {
         "value": "{base.lightest}",
         "type": "color",
         "description": "Banner background color"
@@ -9,6 +9,21 @@ module.exports = {
         "type": "string",
         "description": "Banner font family"
     }, 
+    "font-size": {
+        "value": "{font.size-3xs}",
+        "type": "sizing",
+        "description": "Banner font size"
+    },
+    "line-height": {
+        "value": "{line-height.2}",
+        "type": "string",
+        "description": "Banner line height"
+    },
+    "font-weight": {
+        "value": "{font.weight-normal}",
+        "type": "string",
+        "description": "Banner font weight"
+    },
     "link-color": {
         "value": "{link.color}",
         "type": "color",

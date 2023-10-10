@@ -9,8 +9,28 @@ module.exports = {
         "type": "string",
         "description": "Alert font family"
     },
+    "heading-font-size": {
+        "value": "{font.size-lg}",
+        "type": "sizing",
+        "description": "Alert heading font size"
+    },
+    "font-size": {
+        "value": "{font.size-body}",
+        "type": "sizing",
+        "description": "Alert body font size"
+    },
+    "line-height": {
+        "value": "{line-height.2}",
+        "type": "string",
+        "description": "Alert line height"
+    },
     "icon-size": {
         "value": "{spacing.4}",
+        "type": "sizing",
+        "description": "Alert icon size"
+    },
+    "slim-icon-size": {
+        "value": "{spacing.3}",
         "type": "sizing",
         "description": "Alert icon size"
     },
@@ -43,5 +63,15 @@ module.exports = {
         "value": "{link.reverse-color}",
         "type": "color",
         "description": "Alert link reverse color"
+    },
+    "max-width": {
+        "value": "{spacing.card-lg}",
+        "type": "sizing",
+        "description": "Alert max width"
+    },
+    "border-radius": {
+        "value": "{border-radius.0}",
+        "type": "sizing",
+        "description": "Alert border radius"
     }
 }
