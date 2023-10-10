@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 10 Oct 2023 16:25:08 GMT
+ * Generated on Tue, 10 Oct 2023 17:24:29 GMT
  */
 
 :root {
@@ -40,12 +40,6 @@
   --usa-spacing-auto: auto;
   --usa-spacing-base: 8px;
   --usa-spacing-0: 0;
-  --usa-shadow-none: none;
-  --usa-shadow-5: 0 16px 32px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-4: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-3: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-2: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-1: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   --usa-order-last: last;
   --usa-order-first: first;
   --usa-order-initial: initial;
@@ -637,6 +631,12 @@
   --usa-color-black-transparent-20: rgba(0, 0, 0, 0.2);
   --usa-color-black-transparent-10: rgba(0, 0, 0, 0.1);
   --usa-color-black-transparent-5: rgba(0, 0, 0, 0.01);
+  --usa-box-shadow-none: none;
+  --usa-box-shadow-5: 0 16px 32px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-4: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-3: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-2: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-1: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   --usa-warning-darker: var(--usa-color-gold-vivid-50);
   --usa-warning-dark: var(--usa-color-gold-vivid-30);
   --usa-warning-base: var(--usa-color-gold-vivid-20);
@@ -693,6 +693,7 @@
   --usa-disabled-base: var(--usa-color-gray-50);
   --usa-disabled-light: var(--usa-color-gray-40);
   --usa-disabled-lighter: var(--usa-color-gray-20);
+  --usa-column-gap-sm: var(--usa-spacing-2px);
   --usa-card-border-width: var(--usa-spacing-2px);
   --usa-button-stroke-width: var(--usa-spacing-2px);
   --usa-breadcrumb-padding-x: var(--usa-spacing-0);
@@ -780,13 +781,23 @@
   --usa-font-settings-family-merriweather: 'Merriweather', var(--usa-font-settings-stack-georgia);
   --usa-font-settings-family-source-sans-pro: 'Source Sans Pro Web', var(--usa-font-settings-stack-helvetica);
   --usa-text-color: var(--usa-base-ink);
+  --usa-size-touch-target: calc(var(--usa-spacing-6));
+  --usa-site-margins-mobile-width: calc(var(--usa-spacing-2));
+  --usa-site-margins-width: calc(var(--usa-spacing-4));
+  --usa-site-margins-breakpoint: calc(var(--usa-spacing-desktop));
+  --usa-paragraph-margin-top: calc(var(--usa-spacing-2));
   --usa-link-reverse-hover-color: var(--usa-base-lightest);
   --usa-link-reverse-color: var(--usa-base-lighter);
   --usa-link-active-color: var(--usa-primary-darker);
   --usa-link-hover-color: var(--usa-primary-dark);
   --usa-link-color: var(--usa-primary-base);
+  --usa-line-height-lead: 1.75;
+  --usa-line-height-heading: 1.2;
+  --usa-line-height-body: 1.62;
+  --usa-heading-margin-top: calc(var(--usa-spacing-205));
   --usa-header-min-width: calc(var(--usa-spacing-desktop));
   --usa-header-max-width: calc(var(--usa-spacing-desktop));
+  --usa-grid-container-max-width: calc(var(--usa-spacing-desktop));
   --usa-general-icon-image-size: calc(var(--usa-spacing-2));
   --usa-form-input-line-height: 1.35;
   --usa-form-input-background-color: var(--usa-body-background);
@@ -805,6 +816,10 @@
   --usa-font-size-2xs: calc(var(--usa-type-scale-3));
   --usa-font-size-3xs: calc(var(--usa-type-scale-2));
   --usa-focus-width: calc(var(--usa-spacing-05));
+  --usa-column-gap-desktop: calc(var(--usa-spacing-4));
+  --usa-column-gap-mobile: calc(var(--usa-spacing-2));
+  --usa-column-gap-lg: calc(var(--usa-spacing-3));
+  --usa-column-gap-md: calc(var(--usa-spacing-2));
   --usa-card-padding-y: calc(var(--usa-spacing-2));
   --usa-card-padding-perimeter: calc(var(--usa-spacing-3));
   --usa-card-margin-bottom: calc(var(--usa-spacing-4));
@@ -839,6 +854,13 @@
   --usa-root-border-radius-2: calc(var(--usa-spacing-2));
   --usa-root-border-radius-1: var(--usa-spacing-1);
   --usa-form-checkbox-border-radius: var(--usa-border-radius-sm);
+  --usa-font-size-small: calc(var(--usa-font-size-2xs));
+  --usa-font-size-h6: calc(var(--usa-font-size-3xs));
+  --usa-font-size-h5: calc(var(--usa-font-size-xs));
+  --usa-font-size-h4: var(--usa-font-size-sm);
+  --usa-font-size-h3: calc(var(--usa-font-size-lg));
+  --usa-font-size-h2: calc(var(--usa-font-size-xl));
+  --usa-font-size-h1: calc(var(--usa-font-size-2xl));
   --usa-font-size-body: var(--usa-font-size-sm);
   --usa-font-size-display: calc(var(--usa-font-size-3xl));
   --usa-font-size-lead: calc(var(--usa-font-size-lg));

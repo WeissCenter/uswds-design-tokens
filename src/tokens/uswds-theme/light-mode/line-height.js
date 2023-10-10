@@ -28,5 +28,20 @@ module.exports = {
         "value": "{font-settings.line-height.6}",
         "type": "sizing",
         "description": "6"
-    }
+    },
+    "body": {
+        "value": "{line-height.5}",
+        "type": "sizing",
+        "description": "Body line height"
+    },
+    "heading": {
+        "value": "{line-height.2}",
+        "type": "sizing",
+        "description": "Heading line height"
+    },
+    "lead": {
+        "value": "{line-height.6}",
+        "type": "sizing",
+        "description": "Lead heading line height"
+    },
 }

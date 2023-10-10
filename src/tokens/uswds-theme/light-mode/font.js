@@ -121,6 +121,41 @@ module.exports = {
         "type": "size",
         "description": "Body font size"
     },
+    "size-h1": {
+        "value": "{font.size-2xl}",
+        "type": "size",
+        "description": "H1 font size"
+    },
+    "size-h2": {
+        "value": "{font.size-xl}",
+        "type": "size",
+        "description": "H2 font size"
+    },
+    "size-h3": {
+        "value": "{font.size-lg}",
+        "type": "size",
+        "description": "H3 font size"
+    },
+    "size-h4": {
+        "value": "{font.size-sm}",
+        "type": "size",
+        "description": "H4 font size"
+    },
+    "size-h5": {
+        "value": "{font.size-xs}",
+        "type": "size",
+        "description": "H5 font size"
+    },
+    "size-h6": {
+        "value": "{font.size-3xs}",
+        "type": "size",
+        "description": "H6 font size"
+    },
+    "size-small": {
+        "value": "{font.size-2xs}",
+        "type": "size",
+        "description": "Small font size"
+    },
     "weight-thin": {
         "value": "100",
         "type": "string",

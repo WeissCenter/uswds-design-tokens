@@ -1,4 +1,36 @@
 {
+  "box-shadow": {
+    "1": {
+      "value": "0 1px 4px 0 rgba(0, 0, 0, 0.1)",
+      "type": "shadow",
+      "description": "Shadow elevation 1"
+    },
+    "2": {
+      "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1)",
+      "type": "shadow",
+      "description": "Shadow elevation 2"
+    },
+    "3": {
+      "value": "0 8px 16px 0 rgba(0, 0, 0, 0.1)",
+      "type": "shadow",
+      "description": "Shadow elevation 3"
+    },
+    "4": {
+      "value": "0 12px 24px 0 rgba(0, 0, 0, 0.1)",
+      "type": "shadow",
+      "description": "Shadow elevation 4"
+    },
+    "5": {
+      "value": "0 16px 32px 0 rgba(0, 0, 0, 0.1)",
+      "type": "shadow",
+      "description": "Shadow elevation 5"
+    },
+    "none": {
+      "value": "none",
+      "type": "shadow",
+      "description": "No shadow"
+    }
+  },
   "color": {
     "black-transparent": {
       "5": {
@@ -3144,38 +3176,6 @@
       "description": "Size 05 border radius"
     }
   },
-  "shadow": {
-    "1": {
-      "value": "0 1px 4px 0 rgba(0, 0, 0, 0.1)",
-      "type": "shadow",
-      "description": "Shadow elevation 1"
-    },
-    "2": {
-      "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1)",
-      "type": "shadow",
-      "description": "Shadow elevation 2"
-    },
-    "3": {
-      "value": "0 8px 16px 0 rgba(0, 0, 0, 0.1)",
-      "type": "shadow",
-      "description": "Shadow elevation 3"
-    },
-    "4": {
-      "value": "0 12px 24px 0 rgba(0, 0, 0, 0.1)",
-      "type": "shadow",
-      "description": "Shadow elevation 4"
-    },
-    "5": {
-      "value": "0 16px 32px 0 rgba(0, 0, 0, 0.1)",
-      "type": "shadow",
-      "description": "Shadow elevation 5"
-    },
-    "none": {
-      "value": "none",
-      "type": "shadow",
-      "description": "No shadow"
-    }
-  },
   "spacing": {
     "0": {
       "value": "0",
@@ -3928,6 +3928,33 @@
       "description": "Collection font family"
     }
   },
+  "column": {
+    "gap-sm": {
+      "value": "{spacing.2px}",
+      "type": "sizing",
+      "description": "Small gap between columns"
+    },
+    "gap-md": {
+      "value": "{spacing.2}",
+      "type": "sizing",
+      "description": "Medium gap between columns"
+    },
+    "gap-lg": {
+      "value": "{spacing.3}",
+      "type": "sizing",
+      "description": "Large gap between columns"
+    },
+    "gap-mobile": {
+      "value": "{spacing.2}",
+      "type": "sizing",
+      "description": "Mobile gap between columns"
+    },
+    "gap-desktop": {
+      "value": "{spacing.4}",
+      "type": "sizing",
+      "description": "Desktop gap between columns"
+    }
+  },
   "disabled": {
     "lighter": {
       "value": "{color.gray.20}",
@@ -4137,6 +4164,41 @@
       "type": "size",
       "description": "Body font size"
     },
+    "size-h1": {
+      "value": "{font.size-2xl}",
+      "type": "size",
+      "description": "H1 font size"
+    },
+    "size-h2": {
+      "value": "{font.size-xl}",
+      "type": "size",
+      "description": "H2 font size"
+    },
+    "size-h3": {
+      "value": "{font.size-lg}",
+      "type": "size",
+      "description": "H3 font size"
+    },
+    "size-h4": {
+      "value": "{font.size-sm}",
+      "type": "size",
+      "description": "H4 font size"
+    },
+    "size-h5": {
+      "value": "{font.size-xs}",
+      "type": "size",
+      "description": "H5 font size"
+    },
+    "size-h6": {
+      "value": "{font.size-3xs}",
+      "type": "size",
+      "description": "H6 font size"
+    },
+    "size-small": {
+      "value": "{font.size-2xs}",
+      "type": "size",
+      "description": "Small font size"
+    },
     "weight-thin": {
       "value": "100",
       "type": "string",
@@ -4224,6 +4286,13 @@
       "description": "Icon image size"
     }
   },
+  "grid-container": {
+    "max-width": {
+      "value": "{spacing.desktop}",
+      "type": "sizing",
+      "description": "Max width for grid containers"
+    }
+  },
   "header": {
     "font-family": {
       "value": "{font.ui}",
@@ -4244,6 +4313,13 @@
       "value": "33%",
       "type": "sizing",
       "description": "Header logo text width"
+    }
+  },
+  "heading": {
+    "margin-top": {
+      "value": "{spacing.205}",
+      "type": "sizing",
+      "description": "Margin top for headings"
     }
   },
   "hero": {
@@ -4310,6 +4386,21 @@
       "value": "{font-settings.line-height.6}",
       "type": "sizing",
       "description": "6"
+    },
+    "body": {
+      "value": "{line-height.5}",
+      "type": "sizing",
+      "description": "Body line height"
+    },
+    "heading": {
+      "value": "{line-height.2}",
+      "type": "sizing",
+      "description": "Heading line height"
+    },
+    "lead": {
+      "value": "{line-height.6}",
+      "type": "sizing",
+      "description": "Lead heading line height"
     }
   },
   "link": {
@@ -4379,6 +4470,13 @@
       "value": "{font-settings.measure.6}",
       "type": "sizing",
       "description": "Narrow text measure"
+    }
+  },
+  "paragraph": {
+    "margin-top": {
+      "value": "{spacing.2}",
+      "type": "sizing",
+      "description": "Margin top for paragraphs"
     }
   },
   "primary": {
@@ -4463,6 +4561,30 @@
       "value": false,
       "type": "color",
       "description": "Secondary darkest color"
+    }
+  },
+  "site-margins": {
+    "breakpoint": {
+      "value": "{spacing.desktop}",
+      "type": "sizing",
+      "description": "Breakpoint for site margins"
+    },
+    "width": {
+      "value": "{spacing.4}",
+      "type": "sizing",
+      "description": "Margin for site"
+    },
+    "mobile-width": {
+      "value": "{spacing.2}",
+      "type": "sizing",
+      "description": "Margins for mobile site"
+    }
+  },
+  "size": {
+    "touch-target": {
+      "value": "{spacing.6}",
+      "type": "sizing",
+      "description": "Touch target size used for internal CSS calculations"
     }
   },
   "success": {

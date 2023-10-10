@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 10 Oct 2023 16:25:08 GMT
+ * Generated on Tue, 10 Oct 2023 17:24:29 GMT
  */
 
 :root {
@@ -21,12 +21,6 @@
   --usa-spacing-auto: auto;
   --usa-spacing-base: 8px;
   --usa-spacing-0: 0;
-  --usa-shadow-none: none;
-  --usa-shadow-5: 0 16px 32px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-4: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-3: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-2: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  --usa-shadow-1: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   --usa-order-last: last;
   --usa-order-first: first;
   --usa-order-initial: initial;
@@ -618,6 +612,12 @@
   --usa-color-black-transparent-20: rgba(0, 0, 0, 0.2);
   --usa-color-black-transparent-10: rgba(0, 0, 0, 0.1);
   --usa-color-black-transparent-5: rgba(0, 0, 0, 0.01);
+  --usa-box-shadow-none: none;
+  --usa-box-shadow-5: 0 16px 32px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-4: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-3: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-2: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  --usa-box-shadow-1: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   --usa-type-scale-micro: calc(var(--usa-font-settings-size-base) * .625);
   --usa-type-scale-20: calc(var(--usa-font-settings-size-base) * 8.75);
   --usa-type-scale-19: calc(var(--usa-font-settings-size-base) * 7.5);
