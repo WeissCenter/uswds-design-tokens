@@ -1,11 +1,10 @@
 {
     "base_folder": "./tokens/uswds-base",
-    "theme_folder": "./tokens/uswds-theme/default/",
+    "theme_folder": "./tokens/uswds-theme",
     "output_JSON_path": "../dist/json/",
-    "base_JSON_filename": "uswds-base.json",
-    "theme_JSON_filename": "uswds-full.json",
-    "sd_build_path": "../dist/",
-    "sd_base_filename": "uswds-base-variables",
-    "sd_theme_filename": "uswds-full-variables",
+    "base_filename": "uswds-base",
+    "full_filename": "uswds-full",
+    "theme_fileprefix": "uswds-theme",
+    "output_CSS_path": "../dist/css",
     "css_var_prefix": "usa"
 }
