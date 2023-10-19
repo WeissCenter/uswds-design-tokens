@@ -122,7 +122,7 @@ console.log('Base design tokens combined and saved to:' + config.output_JSON_pat
 //     },
 // }
 
-fs.readdirSync(config.theme_folder).forEach(folder => {
+fs.readdirSync(config.theme_folder).sort((a, b) => b.localeCompare(a)).forEach(folder => {
   const new_obj = {};
   const folder_path = path.join(config.theme_folder, folder);
   const is_folder = fs.statSync(folder_path);
