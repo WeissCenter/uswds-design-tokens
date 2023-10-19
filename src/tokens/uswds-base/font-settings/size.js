@@ -1,7 +1,7 @@
 module.exports = {
     "base": {
         "value": "16px",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Base font size"
     }
 }

@@ -3,32 +3,32 @@
     "box-shadow": {
       "1": {
         "value": "0 1px 4px 0 rgba(0, 0, 0, 0.1)",
-        "type": "shadow",
+        "type": "boxShadow",
         "description": "Shadow elevation 1"
       },
       "2": {
         "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1)",
-        "type": "shadow",
+        "type": "boxShadow",
         "description": "Shadow elevation 2"
       },
       "3": {
         "value": "0 8px 16px 0 rgba(0, 0, 0, 0.1)",
-        "type": "shadow",
+        "type": "boxShadow",
         "description": "Shadow elevation 3"
       },
       "4": {
         "value": "0 12px 24px 0 rgba(0, 0, 0, 0.1)",
-        "type": "shadow",
+        "type": "boxShadow",
         "description": "Shadow elevation 4"
       },
       "5": {
         "value": "0 16px 32px 0 rgba(0, 0, 0, 0.1)",
-        "type": "shadow",
+        "type": "boxShadow",
         "description": "Shadow elevation 5"
       },
       "none": {
         "value": "none",
-        "type": "shadow",
+        "type": "boxShadow",
         "description": "No shadow"
       }
     },
@@ -2844,152 +2844,152 @@
       "family": {
         "source-sans-pro": {
           "value": "'Source Sans Pro Web', {font-settings.stack.helvetica}",
-          "type": "string",
+          "type": "fontFamilies",
           "description": "Source Sans Pro font stack"
         },
         "merriweather": {
           "value": "'Merriweather', {font-settings.stack.georgia}",
-          "type": "string",
+          "type": "fontFamilies",
           "description": "Merriweather font stack"
         },
         "roboto-mono": {
           "value": "'Roboto Mono', {font-settings.stack.monospace}",
-          "type": "string",
+          "type": "fontFamilies",
           "description": "Roboto Mono font stack"
         }
       },
       "letter-spacing": {
         "1": {
           "value": "0.025em",
-          "type": "string",
+          "type": "letterSpacing",
           "description": "0 letter spacing"
         },
         "2": {
           "value": "0.1em",
-          "type": "string",
+          "type": "letterSpacing",
           "description": "2 letter spacing"
         },
         "3": {
           "value": "0.15em",
-          "type": "string",
+          "type": "letterSpacing",
           "description": "3 letter spacing"
         },
         "auto": {
           "value": "initial",
-          "type": "string",
+          "type": "letterSpacing",
           "description": "Auto letter spacing"
         },
         "neg-3": {
           "value": "-0.03em",
-          "type": "string",
+          "type": "letterSpacing",
           "description": "Negative 3 letter spacing"
         },
         "neg-2": {
           "value": "-0.02em",
-          "type": "string",
+          "type": "letterSpacing",
           "description": "Negative 2 letter spacing"
         },
         "neg-1": {
           "value": "-0.01em",
-          "type": "string",
+          "type": "letterSpacing",
           "description": "Negative 1 letter spacing"
         }
       },
       "line-height": {
         "1": {
           "value": 1,
-          "type": "sizing",
+          "type": "lineHeight",
           "description": "Line Height 1"
         },
         "2": {
           "value": 1.2,
-          "type": "sizing",
+          "type": "lineHeight",
           "description": "Line Height 2"
         },
         "3": {
           "value": 1.35,
-          "type": "sizing",
+          "type": "lineHeight",
           "description": "Line Height 3"
         },
         "4": {
           "value": 1.5,
-          "type": "sizing",
+          "type": "lineHeight",
           "description": "Line Height 4"
         },
         "5": {
           "value": 1.62,
-          "type": "sizing",
+          "type": "lineHeight",
           "description": "Line Height 5"
         },
         "6": {
           "value": 1.75,
-          "type": "sizing",
+          "type": "lineHeight",
           "description": "Line Height 6"
         }
       },
       "measure": {
         "1": {
           "value": "44ex",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Text measure 1"
         },
         "2": {
           "value": "60ex",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Text measure 2"
         },
         "3": {
           "value": "64ex",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Text measure 3"
         },
         "4": {
           "value": "68ex",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Text measure 4"
         },
         "5": {
           "value": "74ex",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Text measure 5"
         },
         "6": {
           "value": "88ex",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Text measure 6"
         },
         "none": {
           "value": "none",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Text measure none"
         }
       },
       "size": {
         "base": {
           "value": "16px",
-          "type": "sizing",
+          "type": "fontSizes",
           "description": "Base font size"
         }
       },
       "stack": {
         "system": {
           "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "type": "string",
+          "type": "fontFamilies",
           "description": "System font stack"
         },
         "georgia": {
           "value": "'Georgia', 'Cambria', 'Times New Roman', 'Times', serif",
-          "type": "string",
+          "type": "fontFamilies",
           "description": "Georgia font stack"
         },
         "helvetica": {
           "value": "'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif",
-          "type": "string",
+          "type": "fontFamilies",
           "description": "Helvetica font stack"
         },
         "monospace": {
           "value": "'Bitstream Vera Sans Mono', 'Consolas', 'Courier', monospace",
-          "type": "string",
+          "type": "fontFamilies",
           "description": "Monospace font stack"
         }
       }
@@ -2997,7 +2997,7 @@
     "gap": {
       "base": {
         "value": "8px",
-        "type": "sizing",
+        "type": "spacing",
         "description": "Base spacing unit"
       }
     },
@@ -3133,47 +3133,47 @@
     "root-border-radius": {
       "0": {
         "value": "{spacing.0}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "No border radius"
       },
       "1": {
         "value": "{spacing.1}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "Size 1 border radius"
       },
       "2": {
         "value": "{spacing.2}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "Size 2 border radius"
       },
       "3": {
         "value": "{spacing.3}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "Size 3 border radius"
       },
       "105": {
         "value": "{spacing.105}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "Size 105 border radius"
       },
       "205": {
         "value": "{spacing.205}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "Size 205 border radius"
       },
       "1px": {
         "value": "{spacing.1px}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "1px border radius"
       },
       "2px": {
         "value": "{spacing.2px}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "2px border radius"
       },
       "05": {
         "value": "{spacing.05}",
-        "type": "sizing",
+        "type": "borderRadius",
         "description": "Size 05 border radius"
       }
     },
@@ -3407,154 +3407,154 @@
     "type-scale": {
       "1": {
         "value": "{font-settings.size.base} * .75",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 1"
       },
       "2": {
         "value": "{font-settings.size.base} * .8125",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 2"
       },
       "3": {
         "value": "{font-settings.size.base} * .875",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 3"
       },
       "4": {
         "value": "{font-settings.size.base} * .9375",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 4"
       },
       "5": {
         "value": "{font-settings.size.base}",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 5"
       },
       "6": {
         "value": "{font-settings.size.base} * 1.0625",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 6"
       },
       "7": {
         "value": "{font-settings.size.base} * 1.125",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 7"
       },
       "8": {
         "value": "{font-settings.size.base} * 1.25",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 8"
       },
       "9": {
         "value": "{font-settings.size.base} * 1.375",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 9"
       },
       "10": {
         "value": "{font-settings.size.base} * 1.5",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 10"
       },
       "11": {
         "value": "{font-settings.size.base} * 1.75",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 11"
       },
       "12": {
         "value": "{font-settings.size.base} * 2",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 12"
       },
       "13": {
         "value": "{font-settings.size.base} * 2.25",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 13"
       },
       "14": {
         "value": "{font-settings.size.base} * 2.5",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 14"
       },
       "15": {
         "value": "{font-settings.size.base} * 3",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 15"
       },
       "16": {
         "value": "{font-settings.size.base} * 3.5",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 16"
       },
       "17": {
         "value": "{font-settings.size.base} * 4",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 17"
       },
       "18": {
         "value": "{font-settings.size.base} * 5",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 18"
       },
       "19": {
         "value": "{font-settings.size.base} * 7.5",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 19"
       },
       "20": {
         "value": "{font-settings.size.base} * 8.75",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Type Scale 20"
       },
       "micro": {
         "value": "{font-settings.size.base} * .625",
-        "type": "sizing",
+        "type": "fontSizes",
         "description": "Micro"
       }
     },
     "z-index": {
       "0": {
         "value": "0",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of 0"
       },
       "100": {
         "value": "100",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of 100"
       },
       "200": {
         "value": "200",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of 200"
       },
       "300": {
         "value": "300",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of 300"
       },
       "400": {
         "value": "400",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of 400"
       },
       "500": {
         "value": "500",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of 500"
       },
       "auto": {
         "value": "auto",
-        "type": "spacing",
+        "type": "number",
         "description": "Auto z-index"
       },
       "top": {
         "value": "99999",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of 99999"
       },
       "bottom": {
         "value": "-100",
-        "type": "spacing",
+        "type": "number",
         "description": "z-index of -100"
       }
     }
