@@ -1011,7 +1011,7 @@
     "h1-temporary": {
       "value": {
         "fontFamily": "{font-settings.family.merriweather}",
-        "fontWeight": "{font.weight-thin}",
+        "fontWeight": "{font.weight-black}",
         "fontSize": "{font.size-2xl}"
       },
       "type": "typography"

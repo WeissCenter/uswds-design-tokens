@@ -7,7 +7,7 @@ module.exports = {
     "h1-temporary": {
       "value": {
         "fontFamily": "{font-settings.family.merriweather}",
-        "fontWeight": "{font.weight-thin}",
+        "fontWeight": "{font.weight-black}",
         // "lineHeight": "{lineHeights.0}",
         "fontSize": "{font.size-2xl}"
         // "letterSpacing": "{letterSpacing.0}",
