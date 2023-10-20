@@ -3003,6 +3003,11 @@
         "value": "{font-settings.size.base} * 1.75",
         "type": "paragraphSpacing",
         "description": "Paragraph spacing 6"
+      },
+      "auto": {
+        "value": "auto",
+        "type": "paragraphSpacing",
+        "description": "Paragraph spacing auto"
       }
     },
     "size": {
