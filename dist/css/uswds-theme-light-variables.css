@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 14:07:25 GMT
+ * Generated on Fri, 20 Oct 2023 14:36:54 GMT
  */
 
 :root {
@@ -67,6 +67,8 @@
   --usa-gap-base: 8px;
   --usa-font-settings-stack-monospace: 'Bitstream Vera Sans Mono', 'Consolas', 'Courier', monospace;
   --usa-font-settings-stack-helvetica: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  --usa-font-settings-stack-public: 'Public Sans', Helvetica, Roboto, Arial, sans-serif;
+  --usa-font-settings-stack-merriweather: 'Merriweather', 'Cambria', 'Times New Roman', 'Times', serif;
   --usa-font-settings-stack-georgia: 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
   --usa-font-settings-stack-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --usa-font-settings-size-base: 16px;
@@ -803,7 +805,9 @@
   --usa-root-border-radius-1px: var(--usa-spacing-1px);
   --usa-root-border-radius-0: var(--usa-spacing-0);
   --usa-font-settings-family-roboto-mono: 'Roboto Mono', var(--usa-font-settings-stack-monospace);
-  --usa-font-settings-family-merriweather: 'Merriweather', var(--usa-font-settings-stack-georgia);
+  --usa-font-settings-family-georgia: var(--usa-font-settings-stack-georgia);
+  --usa-font-settings-family-public: var(--usa-font-settings-stack-public);
+  --usa-font-settings-family-merriweather: var(--usa-font-settings-stack-merriweather);
   --usa-font-settings-family-source-sans-pro: 'Source Sans Pro Web', var(--usa-font-settings-stack-helvetica);
   --usa-tooltip-triangle-size: calc(var(--usa-spacing-05));
   --usa-tooltip-padding-x: var(--usa-spacing-1);
@@ -919,7 +923,7 @@
   --usa-in-page-nav-bar-border-color: var(--usa-base-lighter);
   --usa-in-page-nav-background-padding: calc(var(--usa-spacing-2));
   --usa-in-page-nav-background-color: var(--usa-body-background);
-  --usa-heading-h1-temporary: calc(var(--usa-font-weight-black) var(--usa-font-size-2xl)/1 var(--usa-font-settings-family-merriweather));
+  --usa-heading-h1-temporary: calc(var(--usa-font-weight-black) var(--usa-font-size-2xl)/1 var(--usa-font-settings-family-public));
   --usa-heading-margin-top: calc(var(--usa-spacing-205));
   --usa-header-min-width: calc(var(--usa-spacing-desktop));
   --usa-header-max-width: calc(var(--usa-spacing-desktop));

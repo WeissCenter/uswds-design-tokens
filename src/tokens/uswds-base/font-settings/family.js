@@ -5,9 +5,19 @@ module.exports = {
         "description": "Source Sans Pro font stack"
     },
     "merriweather": {
-        "value": "'Merriweather', {font-settings.stack.georgia}",
+        "value": "{font-settings.stack.merriweather}",
         "type": "fontFamilies",
         "description": "Merriweather font stack"
+    },
+    "public": {
+        "value": "{font-settings.stack.public}",
+        "type": "fontFamilies",
+        "description": "Public Sans font stack"
+    },
+    "georgia": {
+        "value": "{font-settings.stack.georgia}",
+        "type": "fontFamilies",
+        "description": "Georgia font stack"
     },
     "roboto-mono": {
         "value": "'Roboto Mono', {font-settings.stack.monospace}",
