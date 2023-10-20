@@ -4563,6 +4563,12 @@
         "value": "{spacing.205}",
         "type": "spacing",
         "description": "Margin top for headings"
+      },
+      "h1-temporary": {
+        "value": {
+          "fontFamily": "{font-settings.family.merriweather}"
+        },
+        "type": "typography"
       }
     },
     "hero": {
