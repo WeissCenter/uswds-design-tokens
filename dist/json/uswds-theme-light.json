@@ -945,6 +945,14 @@
       "value": "Black",
       "type": "fontWeights",
       "description": "Black font weight"
+    },
+    "h1-temporary": {
+      "value": {
+        "fontFamily": "{font-settings.family.public}",
+        "fontWeight": "{font.weight-black}",
+        "fontSize": "{font.size-2xl}"
+      },
+      "type": "typography"
     }
   },
   "footer": {
@@ -1007,14 +1015,6 @@
       "value": "{spacing.205}",
       "type": "spacing",
       "description": "Margin top for headings"
-    },
-    "h1-temporary": {
-      "value": {
-        "fontFamily": "{font-settings.family.public}",
-        "fontWeight": "{font.weight-black}",
-        "fontSize": "{font.size-2xl}"
-      },
-      "type": "typography"
     }
   },
   "hero": {

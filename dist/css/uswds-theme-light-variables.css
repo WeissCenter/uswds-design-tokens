@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 14:36:54 GMT
+ * Generated on Fri, 20 Oct 2023 14:40:08 GMT
  */
 
 :root {
@@ -923,13 +923,13 @@
   --usa-in-page-nav-bar-border-color: var(--usa-base-lighter);
   --usa-in-page-nav-background-padding: calc(var(--usa-spacing-2));
   --usa-in-page-nav-background-color: var(--usa-body-background);
-  --usa-heading-h1-temporary: calc(var(--usa-font-weight-black) var(--usa-font-size-2xl)/1 var(--usa-font-settings-family-public));
   --usa-heading-margin-top: calc(var(--usa-spacing-205));
   --usa-header-min-width: calc(var(--usa-spacing-desktop));
   --usa-header-max-width: calc(var(--usa-spacing-desktop));
   --usa-grid-container-max-width: calc(var(--usa-spacing-desktop));
   --usa-general-icon-image-size: calc(var(--usa-spacing-2));
   --usa-footer-max-width: calc(var(--usa-spacing-desktop));
+  --usa-font-h1-temporary: calc(var(--usa-font-weight-black) var(--usa-font-size-2xl)/1 var(--usa-font-settings-family-public));
   --usa-font-mono: var(--usa-font-settings-family-roboto-mono);
   --usa-font-serif: var(--usa-font-settings-family-merriweather);
   --usa-font-sans: var(--usa-font-settings-family-source-sans-pro);

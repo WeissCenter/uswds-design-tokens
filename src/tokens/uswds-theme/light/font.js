@@ -196,5 +196,19 @@ module.exports = {
         "value": "Black",
         "type": "fontWeights",
         "description": "Black font weight"
-    }
+    },
+    "h1-temporary": {
+        "value": {
+          "fontFamily": "{font-settings.family.public}",
+          "fontWeight": "{font.weight-black}",
+          // "lineHeight": "{lineHeights.0}",
+          "fontSize": "{font.size-2xl}"
+          // "letterSpacing": "{letterSpacing.0}",
+          // "paragraphSpacing": "{paragraphSpacing.0}",
+          // "paragraphIndent": "{paragraphIndent.0}",
+          // "textCase": "{textCase.none}",
+          // "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
 }
