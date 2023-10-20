@@ -4,7 +4,7 @@ module.exports = {
         "type": "spacing",
         "description": "Margin top for headings"
     },
-    "heading-1": {
+    "heading-1-new": {
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
