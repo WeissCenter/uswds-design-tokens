@@ -6,10 +6,10 @@ module.exports = {
     },
     "h1-temporary": {
       "value": {
-        "fontFamily": "{font-settings.family.merriweather}"
-        // "fontWeight": "{fontWeights.source-sans-pro-0}",
+        "fontFamily": "{font-settings.family.merriweather}",
+        "fontWeight": "{font.weight-thin}",
         // "lineHeight": "{lineHeights.0}",
-        // "fontSize": "{fontSize.0}",
+        "fontSize": "{font.size-2xl}"
         // "letterSpacing": "{letterSpacing.0}",
         // "paragraphSpacing": "{paragraphSpacing.0}",
         // "paragraphIndent": "{paragraphIndent.0}",
