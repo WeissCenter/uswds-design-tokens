@@ -1015,7 +1015,7 @@
         "lineHeight": "{line-height.heading}",
         "fontSize": "{font.size-2xl}",
         "letterSpacing": "{font-settings.letter-spacing.1}",
-        "paragraphSpacing": "{font-settings.paragraph-spacing.1}",
+        "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
         "textCase": "{font-settings.text-transform.normal}"
       },
       "type": "typography"

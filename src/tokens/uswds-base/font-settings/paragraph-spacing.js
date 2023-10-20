@@ -1,6 +1,6 @@
 module.exports = {
     "auto": {
-        "value": "auto",
+        "value": "Auto",
         "type": "paragraphSpacing",
         "description": "Paragraph spacing auto"
     },    

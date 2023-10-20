@@ -11,7 +11,7 @@ module.exports = {
           "lineHeight": "{line-height.heading}",
           "fontSize": "{font.size-2xl}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
-          "paragraphSpacing": "{font-settings.paragraph-spacing.1}",
+          "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
           // "paragraphIndent": "{paragraphIndent.0}",
           // "textDecoration": "{textDecoration.none}"
