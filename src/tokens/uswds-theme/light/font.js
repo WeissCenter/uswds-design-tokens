@@ -202,11 +202,11 @@ module.exports = {
           "fontFamily": "{font-settings.family.georgia}",
           "fontWeight": "{font.weight-normal}",
           "lineHeight": "{line-height.heading}",
-          "fontSize": "{font.size-2xl}"
-          // "letterSpacing": "{letterSpacing.0}",
-          // "paragraphSpacing": "{paragraphSpacing.0}",
+          "fontSize": "{font.size-2xl}",
+          "letterSpacing": "{font-settings.letter-spacing.1}",
+          "paragraphSpacing": "{font-settings.paragraph-spacing.1}",
+          "textCase": "{textCase.none}"
           // "paragraphIndent": "{paragraphIndent.0}",
-          // "textCase": "{textCase.none}",
           // "textDecoration": "{textDecoration.none}"
         },
         "type": "typography"
