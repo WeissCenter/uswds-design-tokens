@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 17:27:06 GMT
+ * Generated on Fri, 20 Oct 2023 17:38:54 GMT
  */
 
 :root {
@@ -936,7 +936,7 @@
   --usa-in-page-nav-bar-border-color: var(--usa-base-lighter);
   --usa-in-page-nav-background-padding: calc(var(--usa-spacing-2));
   --usa-in-page-nav-background-color: var(--usa-body-background);
-  --usa-heading-h1-temporary: calc(var(--usa-font-weight-normal) var(--usa-font-size-2xl)/var(--usa-font-size-2xl) * var(--usa-line-height-heading) var(--usa-font-settings-family-georgia));
+  --usa-heading-h1-temporary: calc(var(--usa-font-weight-bold) var(--usa-font-size-2xl)/var(--usa-font-size-2xl) * var(--usa-line-height-heading) var(--usa-font-settings-family-public));
   --usa-heading-margin-top: calc(var(--usa-spacing-205));
   --usa-header-min-width: calc(var(--usa-spacing-desktop));
   --usa-header-max-width: calc(var(--usa-spacing-desktop));

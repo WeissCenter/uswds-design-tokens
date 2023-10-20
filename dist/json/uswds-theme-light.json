@@ -1010,8 +1010,8 @@
     },
     "h1-temporary": {
       "value": {
-        "fontFamily": "{font-settings.family.georgia}",
-        "fontWeight": "{font.weight-normal}",
+        "fontFamily": "{font-settings.family.public}",
+        "fontWeight": "{font.weight-bold}",
         "lineHeight": "{font.size-2xl} * {line-height.heading}",
         "fontSize": "{font.size-2xl}",
         "letterSpacing": "{font-settings.letter-spacing.1}",
