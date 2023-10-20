@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 23:16:24 GMT
+ * Generated on Fri, 20 Oct 2023 23:18:19 GMT
  */
 
 :root {
@@ -707,11 +707,11 @@
   --usa-in-page-nav-sub-item-font-weight: var(--usa-font-weight-normal);
   --usa-in-page-nav-font-weight: var(--usa-font-weight-bold);
   --usa-in-page-nav-bar-border-width: var(--usa-spacing-1px);
-  --usa-heading-heading-6: calc(var(--usa-font-weight-bold) var(--usa-font-size-h6)/var(--usa-font-size-h6) * var(--usa-line-height-heading) var(--usa-font-heading));
-  --usa-heading-heading-5: calc(var(--usa-font-weight-bold) var(--usa-font-size-h5)/var(--usa-font-size-h5) * var(--usa-line-height-heading) var(--usa-font-heading));
-  --usa-heading-heading-4: calc(var(--usa-font-weight-bold) var(--usa-font-size-h4)/19.2px var(--usa-font-heading));
-  --usa-heading-heading-3: calc(var(--usa-font-weight-bold) var(--usa-font-size-h3)/var(--usa-font-size-h3) * var(--usa-line-height-heading) var(--usa-font-heading));
-  --usa-heading-heading-2: calc(var(--usa-font-weight-bold) var(--usa-font-size-h2)/var(--usa-font-size-h2) * var(--usa-line-height-heading) var(--usa-font-heading));
+  --usa-heading-heading-6: calc(var(--usa-font-weight-bold) var(--usa-font-size-h6)/var(--usa-font-size-h6) * var(--usa-line-height-heading) 'Public Sans');
+  --usa-heading-heading-5: calc(var(--usa-font-weight-bold) var(--usa-font-size-h5)/var(--usa-font-size-h5) * var(--usa-line-height-heading) 'Public Sans');
+  --usa-heading-heading-4: calc(var(--usa-font-weight-bold) var(--usa-font-size-h4)/19.2px 'Public Sans');
+  --usa-heading-heading-3: calc(var(--usa-font-weight-bold) var(--usa-font-size-h3)/var(--usa-font-size-h3) * var(--usa-line-height-heading) 'Public Sans');
+  --usa-heading-heading-2: calc(var(--usa-font-weight-bold) var(--usa-font-size-h2)/var(--usa-font-size-h2) * var(--usa-line-height-heading) 'Public Sans');
   --usa-heading-heading-1-new: calc(var(--usa-font-weight-bold) var(--usa-font-size-h1)/var(--usa-font-size-h1) * var(--usa-line-height-heading) 'Public Sans');
   --usa-font-display: var(--usa-font-heading);
   --usa-font-lead: var(--usa-font-heading);

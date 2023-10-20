@@ -1018,7 +1018,7 @@
     },
     "heading-2": {
       "value": {
-        "fontFamily": "{font.heading}",
+        "fontFamily": "Public Sans",
         "fontWeight": "{font.weight-bold}",
         "lineHeight": "{font.size-h2} * {line-height.heading}",
         "fontSize": "{font.size-h2}",
@@ -1031,7 +1031,7 @@
     },
     "heading-3": {
       "value": {
-        "fontFamily": "{font.heading}",
+        "fontFamily": "Public Sans",
         "fontWeight": "{font.weight-bold}",
         "lineHeight": "{font.size-h3} * {line-height.heading}",
         "fontSize": "{font.size-h3}",
@@ -1044,7 +1044,7 @@
     },
     "heading-4": {
       "value": {
-        "fontFamily": "{font.heading}",
+        "fontFamily": "Public Sans",
         "fontWeight": "{font.weight-bold}",
         "lineHeight": "{font.size-h4} * {line-height.heading}",
         "fontSize": "{font.size-h4}",
@@ -1057,7 +1057,7 @@
     },
     "heading-5": {
       "value": {
-        "fontFamily": "{font.heading}",
+        "fontFamily": "Public Sans",
         "fontWeight": "{font.weight-bold}",
         "lineHeight": "{font.size-h5} * {line-height.heading}",
         "fontSize": "{font.size-h5}",
@@ -1070,7 +1070,7 @@
     },
     "heading-6": {
       "value": {
-        "fontFamily": "{font.heading}",
+        "fontFamily": "Public Sans",
         "fontWeight": "{font.weight-bold}",
         "lineHeight": "{font.size-h6} * {line-height.heading}",
         "fontSize": "{font.size-h6}",
