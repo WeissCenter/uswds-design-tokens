@@ -21,7 +21,7 @@ module.exports = {
     },
     "heading-2": {
         "value": {
-          "fontFamily": "{font.heading}",
+          "fontFamily": "Public Sans",
           "fontWeight": "{font.weight-bold}",
           "lineHeight": "{font.size-h2} * {line-height.heading}",
           "fontSize": "{font.size-h2}",
@@ -36,7 +36,7 @@ module.exports = {
     },
     "heading-3": {
         "value": {
-          "fontFamily": "{font.heading}",
+          "fontFamily": "Public Sans",
           "fontWeight": "{font.weight-bold}",
           "lineHeight": "{font.size-h3} * {line-height.heading}",
           "fontSize": "{font.size-h3}",
@@ -51,7 +51,7 @@ module.exports = {
     },
     "heading-4": {
         "value": {
-          "fontFamily": "{font.heading}",
+          "fontFamily": "Public Sans",
           "fontWeight": "{font.weight-bold}",
           "lineHeight": "{font.size-h4} * {line-height.heading}",
           "fontSize": "{font.size-h4}",
@@ -66,7 +66,7 @@ module.exports = {
     },
     "heading-5": {
         "value": {
-          "fontFamily": "{font.heading}",
+          "fontFamily": "Public Sans",
           "fontWeight": "{font.weight-bold}",
           "lineHeight": "{font.size-h5} * {line-height.heading}",
           "fontSize": "{font.size-h5}",
@@ -81,7 +81,7 @@ module.exports = {
     },
     "heading-6": {
         "value": {
-          "fontFamily": "{font.heading}",
+          "fontFamily": "Public Sans",
           "fontWeight": "{font.weight-bold}",
           "lineHeight": "{font.size-h6} * {line-height.heading}",
           "fontSize": "{font.size-h6}",
