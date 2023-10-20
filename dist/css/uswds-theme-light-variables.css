@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 22:41:57 GMT
+ * Generated on Fri, 20 Oct 2023 22:59:10 GMT
  */
 
 :root {
@@ -950,7 +950,6 @@
   --usa-font-size-xs: calc(var(--usa-type-scale-4));
   --usa-font-size-2xs: calc(var(--usa-type-scale-3));
   --usa-font-size-3xs: calc(var(--usa-type-scale-2));
-  --usa-font-heading: var(--usa-font-settings-family-source-sans-pro);
   --usa-font-mono: var(--usa-font-settings-family-roboto-mono);
   --usa-font-serif: var(--usa-font-settings-family-merriweather);
   --usa-font-sans: var(--usa-font-settings-family-source-sans-pro);
@@ -1054,12 +1053,6 @@
   --usa-in-page-nav-link-color: var(--usa-link-color);
   --usa-in-page-nav-font-size: calc(var(--usa-font-size-2xs));
   --usa-in-page-nav-text-color: var(--usa-text-color);
-  --usa-heading-heading-6: calc(var(--usa-font-weight-bold) var(--usa-font-size-h6)/var(--usa-font-size-h6) * var(--usa-line-height-heading) var(--usa-font-heading));
-  --usa-heading-heading-5: calc(var(--usa-font-weight-bold) var(--usa-font-size-h5)/var(--usa-font-size-h5) * var(--usa-line-height-heading) var(--usa-font-heading));
-  --usa-heading-heading-4: calc(var(--usa-font-weight-bold) var(--usa-font-size-h4)/19.2px var(--usa-font-heading));
-  --usa-heading-heading-3: calc(var(--usa-font-weight-bold) var(--usa-font-size-h3)/var(--usa-font-size-h3) * var(--usa-line-height-heading) var(--usa-font-heading));
-  --usa-heading-heading-2: calc(var(--usa-font-weight-bold) var(--usa-font-size-h2)/var(--usa-font-size-h2) * var(--usa-line-height-heading) var(--usa-font-heading));
-  --usa-heading-heading-1: calc(var(--usa-font-weight-bold) var(--usa-font-size-h1)/var(--usa-font-size-h1) * var(--usa-line-height-heading) var(--usa-font-heading));
   --usa-font-size-small: calc(var(--usa-font-size-2xs));
   --usa-font-size-h6: calc(var(--usa-font-size-3xs));
   --usa-font-size-h5: calc(var(--usa-font-size-xs));
@@ -1070,17 +1063,15 @@
   --usa-font-size-body: var(--usa-font-size-sm);
   --usa-font-size-display: calc(var(--usa-font-size-3xl));
   --usa-font-size-lead: calc(var(--usa-font-size-lg));
-  --usa-font-display: var(--usa-font-heading);
-  --usa-font-lead: var(--usa-font-heading);
   --usa-font-alt: var(--usa-font-serif);
   --usa-font-code: var(--usa-font-mono);
   --usa-font-body: var(--usa-font-sans);
+  --usa-font-heading: var(--usa-font-sans);
   --usa-font-ui: var(--usa-font-sans);
   --usa-collection-header-font-size: calc(var(--usa-font-size-md));
   --usa-checkbox-border-radius: var(--usa-border-radius-sm);
   --usa-card-header-line-height: 1.2;
   --usa-card-header-font-size: calc(var(--usa-font-size-lg));
-  --usa-card-header-font-family: var(--usa-font-heading);
   --usa-card-line-height: 1.62;
   --usa-button-border-radius: var(--usa-border-radius-sm);
   --usa-button-lg-font-size: calc(var(--usa-font-size-lg));
@@ -1113,14 +1104,23 @@
   --usa-input-tile-border-radius: calc(var(--usa-border-radius-md));
   --usa-in-page-nav-font-family: var(--usa-font-ui);
   --usa-in-page-nav-border-radius: var(--usa-border-radius-lg);
+  --usa-heading-heading-6: calc(var(--usa-font-weight-bold) var(--usa-font-size-h6)/var(--usa-font-size-h6) * var(--usa-line-height-heading) var(--usa-font-heading));
+  --usa-heading-heading-5: calc(var(--usa-font-weight-bold) var(--usa-font-size-h5)/var(--usa-font-size-h5) * var(--usa-line-height-heading) var(--usa-font-heading));
+  --usa-heading-heading-4: calc(var(--usa-font-weight-bold) var(--usa-font-size-h4)/19.2px var(--usa-font-heading));
+  --usa-heading-heading-3: calc(var(--usa-font-weight-bold) var(--usa-font-size-h3)/var(--usa-font-size-h3) * var(--usa-line-height-heading) var(--usa-font-heading));
+  --usa-heading-heading-2: calc(var(--usa-font-weight-bold) var(--usa-font-size-h2)/var(--usa-font-size-h2) * var(--usa-line-height-heading) var(--usa-font-heading));
+  --usa-heading-heading-1: calc(var(--usa-font-weight-bold) var(--usa-font-size-h1)/var(--usa-font-size-h1) * var(--usa-line-height-heading) var(--usa-font-heading));
   --usa-header-font-family: var(--usa-font-ui);
   --usa-form-font-family: var(--usa-font-ui);
   --usa-footer-font-family: var(--usa-font-ui);
   --usa-font-size-prose: var(--usa-font-size-body);
   --usa-font-prose: var(--usa-font-body);
+  --usa-font-display: var(--usa-font-heading);
+  --usa-font-lead: var(--usa-font-heading);
   --usa-collection-header-font-family: var(--usa-font-ui);
   --usa-collection-font-family: var(--usa-font-ui);
   --usa-card-border-radius: var(--usa-border-radius-lg);
+  --usa-card-header-font-family: var(--usa-font-heading);
   --usa-card-font-size: var(--usa-font-size-body);
   --usa-card-font-family: var(--usa-font-body);
   --usa-button-lg-border-radius: calc(var(--usa-border-radius-md));

@@ -23,9 +23,9 @@ module.exports = {
         "description": "UI element font stack"
     },
     "heading": {
-        "value": "{font-settings.family.source-sans-pro}",
+        "value": "{font.sans}",
         "type": "fontFamilies",
-        "description": "Heading font stack sans pro"
+        "description": "Heading font stack"
     },
     "body": {
         "value": "{font.sans}",
