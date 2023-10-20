@@ -4501,6 +4501,11 @@
         "value": "900",
         "type": "fontWeights",
         "description": "Black font weight"
+      },
+      "weight-black": {
+        "value": "Black",
+        "type": "fontWeights",
+        "description": "Black font weight"
       }
     },
     "footer": {
@@ -4566,7 +4571,9 @@
       },
       "h1-temporary": {
         "value": {
-          "fontFamily": "{font-settings.family.merriweather}"
+          "fontFamily": "{font-settings.family.merriweather}",
+          "fontWeight": "{font.weight-thin}",
+          "fontSize": "{font.size-2xl}"
         },
         "type": "typography"
       }
