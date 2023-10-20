@@ -1,4 +1,9 @@
 module.exports = {
+    "auto": {
+        "value": "auto",
+        "type": "paragraphSpacing",
+        "description": "Paragraph spacing auto"
+    },    
     "1": {
         "value": "{font-settings.size.base} * 1",
         "type": "paragraphSpacing",
