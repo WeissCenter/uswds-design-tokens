@@ -1,6 +1,62 @@
 // All themed variables with a "font-" prefix go here
+// font-family, font-weight, font-size
 
 module.exports = {
+    "sans": {
+        "value": "{font-settings.family.source-sans-pro}",
+        "type": "fontFamilies",
+        "description": "Sans-serif font stack"
+    },
+    "serif": {
+        "value": "{font-settings.family.merriweather}",
+        "type": "fontFamilies",
+        "description": "Serif font stack"
+    },
+    "mono": {
+        "value": "{font-settings.family.roboto-mono}",
+        "type": "fontFamilies",
+        "description": "Monospace font stack"
+    },
+    "ui": {
+        "value": "{font.sans}",
+        "type": "fontFamilies",
+        "description": "UI element font stack"
+    },
+    "heading": {
+        "value": "{font.heading}",
+        "type": "fontFamilies",
+        "description": "Heading font stack"
+    },
+    "body": {
+        "value": "{font.sans}",
+        "type": "fontFamilies",
+        "description": "Body font stack"
+    },
+    "code": {
+        "value": "{font.mono}",
+        "type": "fontFamilies",
+        "description": "Code font stack"
+    },
+    "alt": {
+        "value": "{font.serif}",
+        "type": "fontFamilies",
+        "description": "Alternate font stack"
+    },
+    "lead": {
+        "value": "{font.heading}",
+        "type": "fontFamilies",
+        "description": "Lead font stack"
+    },
+    "display": {
+        "value": "{font.heading}",
+        "type": "fontFamilies",
+        "description": "Display font stack"
+    },
+    "prose": {
+        "value": "{font.body}",
+        "type": "fontFamilies",
+        "description": "Prose font stack"
+    },
     "size-3xs": {
         "value": "{type-scale.2}",
         "type": "fontSizes",
@@ -46,70 +102,15 @@ module.exports = {
         "type": "fontSizes",
         "description": "XXX-Large"
     },
-    "sans": {
-        "value": "{font-settings.family.source-sans-pro}",
-        "type": "fontFamilies",
-        "description": "Sans-serif font stack"
-    },
-    "serif": {
-        "value": "{font-settings.family.merriweather}",
-        "type": "fontFamilies",
-        "description": "Serif font stack"
-    },
-    "mono": {
-        "value": "{font-settings.family.roboto-mono}",
-        "type": "fontFamilies",
-        "description": "Monospace font stack"
-    },
-    "ui": {
-        "value": "{font.sans}",
-        "type": "fontFamilies",
-        "description": "UI element font stack"
-    },
-    "heading": {
-        "value": "{font.serif}",
-        "type": "fontFamilies",
-        "description": "Heading font stack"
-    },
-    "body": {
-        "value": "{font.sans}",
-        "type": "fontFamilies",
-        "description": "Body font stack"
-    },
-    "code": {
-        "value": "{font.mono}",
-        "type": "fontFamilies",
-        "description": "Code font stack"
-    },
-    "alt": {
-        "value": "{font.serif}",
-        "type": "fontFamilies",
-        "description": "Alternate font stack"
-    },
-    "lead": {
-        "value": "{font.heading}",
-        "type": "fontFamilies",
-        "description": "Lead font stack"
-    },
     "size-lead": {
         "value": "{font.size-lg}",
         "type": "fontSizes",
         "description": "Lead font size"
     },
-    "display": {
-        "value": "{font.heading}",
-        "type": "fontFamilies",
-        "description": "Display font stack"
-    },
     "size-display": {
         "value": "{font.size-3xl}",
         "type": "fontSizes",
         "description": "Display font size"
-    },
-    "prose": {
-        "value": "{font.body}",
-        "type": "fontFamilies",
-        "description": "Prose font stack"
     },
     "size-prose": {
         "value": "{font.size-body}",
@@ -188,12 +189,6 @@ module.exports = {
     },
     "weight-heavy": {
         "value": "900",
-        "type": "fontWeights",
-        "description": "Black font weight"
-    },
-    // adding black for testing with figma
-    "weight-black": {
-        "value": "Black",
         "type": "fontWeights",
         "description": "Black font weight"
     }
