@@ -2974,6 +2974,38 @@
           "description": "Text measure none"
         }
       },
+      "paragraph-spacing": {
+        "1": {
+          "value": "{font-settings.size.base} * 1",
+          "type": "paragraphSpacing",
+          "description": "Paragraph spacing 1"
+        },
+        "2": {
+          "value": "{font-settings.size.base} * 1.2",
+          "type": "paragraphSpacing",
+          "description": "Paragraph spacing 2"
+        },
+        "3": {
+          "value": "{font-settings.size.base} * 1.35",
+          "type": "paragraphSpacing",
+          "description": "Paragraph spacing 3"
+        },
+        "4": {
+          "value": "{font-settings.size.base} * 1.5",
+          "type": "paragraphSpacing",
+          "description": "Paragraph spacing 4"
+        },
+        "5": {
+          "value": "{font-settings.size.base} * 1.62",
+          "type": "paragraphSpacing",
+          "description": "Paragraph spacing 5"
+        },
+        "6": {
+          "value": "{font-settings.size.base} * 1.75",
+          "type": "paragraphSpacing",
+          "description": "Paragraph spacing 6"
+        }
+      },
       "size": {
         "base": {
           "value": "16px",
@@ -3011,6 +3043,38 @@
           "value": "'Bitstream Vera Sans Mono', 'Consolas', 'Courier', monospace",
           "type": "fontFamilies",
           "description": "Monospace font stack"
+        }
+      },
+      "text-transform": {
+        "normal": {
+          "value": "none",
+          "type": "textCase",
+          "description": "Text case"
+        },
+        "uppercase": {
+          "value": "uppercase",
+          "type": "textCase",
+          "description": "Text case"
+        },
+        "lowercase": {
+          "value": "lowercase",
+          "type": "textCase",
+          "description": "Text case"
+        },
+        "capitalize": {
+          "value": "capitalize",
+          "type": "textCase",
+          "description": "Text case"
+        },
+        "smallCaps": {
+          "value": "small-caps",
+          "type": "textCase",
+          "description": "Text case"
+        },
+        "allSmallCaps": {
+          "value": "all-small-caps",
+          "type": "textCase",
+          "description": "Text case"
         }
       }
     },
@@ -4531,7 +4595,11 @@
         "value": {
           "fontFamily": "{font-settings.family.georgia}",
           "fontWeight": "{font.weight-normal}",
-          "fontSize": "{font.size-2xl}"
+          "lineHeight": "{line-height.heading}",
+          "fontSize": "{font.size-2xl}",
+          "letterSpacing": "{font-settings.letter-spacing.1}",
+          "paragraphSpacing": "{font-settings.paragraph-spacing.1}",
+          "textCase": "{font-settings.text-transform.normal}"
         },
         "type": "typography"
       }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 15:33:57 GMT
+ * Generated on Fri, 20 Oct 2023 16:25:32 GMT
  */
 
 :root {
@@ -65,6 +65,12 @@
   --usa-opacity-10: .1;
   --usa-opacity-0: 0;
   --usa-gap-base: 8px;
+  --usa-font-settings-text-transform-all-small-caps: all-small-caps;
+  --usa-font-settings-text-transform-small-caps: small-caps;
+  --usa-font-settings-text-transform-capitalize: capitalize;
+  --usa-font-settings-text-transform-lowercase: lowercase;
+  --usa-font-settings-text-transform-uppercase: uppercase;
+  --usa-font-settings-text-transform-normal: none;
   --usa-font-settings-stack-monospace: 'Bitstream Vera Sans Mono', 'Consolas', 'Courier', monospace;
   --usa-font-settings-stack-helvetica: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   --usa-font-settings-stack-public: 'Public Sans', Helvetica, Roboto, Arial, sans-serif;
@@ -804,6 +810,12 @@
   --usa-root-border-radius-2px: var(--usa-spacing-2px);
   --usa-root-border-radius-1px: var(--usa-spacing-1px);
   --usa-root-border-radius-0: var(--usa-spacing-0);
+  --usa-font-settings-paragraph-spacing-6: calc(var(--usa-font-settings-size-base) * 1.75);
+  --usa-font-settings-paragraph-spacing-5: calc(var(--usa-font-settings-size-base) * 1.62);
+  --usa-font-settings-paragraph-spacing-4: calc(var(--usa-font-settings-size-base) * 1.5);
+  --usa-font-settings-paragraph-spacing-3: calc(var(--usa-font-settings-size-base) * 1.35);
+  --usa-font-settings-paragraph-spacing-2: calc(var(--usa-font-settings-size-base) * 1.2);
+  --usa-font-settings-paragraph-spacing-1: calc(var(--usa-font-settings-size-base) * 1);
   --usa-font-settings-family-roboto-mono: 'Roboto Mono', var(--usa-font-settings-stack-monospace);
   --usa-font-settings-family-georgia: var(--usa-font-settings-stack-georgia);
   --usa-font-settings-family-public: var(--usa-font-settings-stack-public);
@@ -929,7 +941,7 @@
   --usa-grid-container-max-width: calc(var(--usa-spacing-desktop));
   --usa-general-icon-image-size: calc(var(--usa-spacing-2));
   --usa-footer-max-width: calc(var(--usa-spacing-desktop));
-  --usa-font-h1-temporary: calc(var(--usa-font-weight-normal) var(--usa-font-size-2xl)/1 var(--usa-font-settings-family-georgia));
+  --usa-font-h1-temporary: calc(var(--usa-font-weight-normal) var(--usa-font-size-2xl)/var(--usa-line-height-heading) var(--usa-font-settings-family-georgia));
   --usa-font-mono: var(--usa-font-settings-family-roboto-mono);
   --usa-font-serif: var(--usa-font-settings-family-merriweather);
   --usa-font-sans: var(--usa-font-settings-family-source-sans-pro);

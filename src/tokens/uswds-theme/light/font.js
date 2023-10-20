@@ -205,7 +205,7 @@ module.exports = {
           "fontSize": "{font.size-2xl}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.1}",
-          "textCase": "{textCase.none}"
+          "textCase": "{font-settings.text-transform.normal}"
           // "paragraphIndent": "{paragraphIndent.0}",
           // "textDecoration": "{textDecoration.none}"
         },
