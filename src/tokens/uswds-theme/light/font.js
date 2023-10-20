@@ -199,7 +199,7 @@ module.exports = {
     },
     "h1-temporary": {
         "value": {
-          "fontFamily": "{font-settings.family.public}",
+          "fontFamily": "{font-settings.family.georgia}",
           "fontWeight": "{font.weight-normal}",
           // "lineHeight": "{lineHeights.0}",
           "fontSize": "{font.size-2xl}"
