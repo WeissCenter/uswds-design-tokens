@@ -8,7 +8,7 @@ module.exports = {
         "value": {
           "fontFamily": "{font-settings.family.georgia}",
           "fontWeight": "{font.weight-normal}",
-          "lineHeight": "{line-height.heading}",
+          "lineHeight": "{font.size-2xl} * {line-height.heading}",
           "fontSize": "{font.size-2xl}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
