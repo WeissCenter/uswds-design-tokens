@@ -6,7 +6,7 @@ module.exports = {
     },
     "heading-1-new": {
         "value": {
-          "fontFamily": "{font.heading}",
+          "fontFamily": "Public Sans",
           "fontWeight": "{font.weight-bold}",
           "lineHeight": "{font.size-h1} * {line-height.heading}",
           "fontSize": "{font.size-h1}",
