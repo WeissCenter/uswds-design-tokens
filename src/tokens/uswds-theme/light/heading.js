@@ -8,8 +8,8 @@ module.exports = {
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-2xl} * {line-height.heading}",
-          "fontSize": "{font.size-2xl}",
+          "lineHeight": "{font.size-h1} * {line-height.heading}",
+          "fontSize": "{font.size-h1}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -23,8 +23,8 @@ module.exports = {
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-xl} * {line-height.heading}",
-          "fontSize": "{font.size-xl}",
+          "lineHeight": "{font.size-h2} * {line-height.heading}",
+          "fontSize": "{font.size-h2}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -38,8 +38,8 @@ module.exports = {
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-lg} * {line-height.heading}",
-          "fontSize": "{font.size-lg}",
+          "lineHeight": "{font.size-h3} * {line-height.heading}",
+          "fontSize": "{font.size-h3}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -53,8 +53,8 @@ module.exports = {
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-sm} * {line-height.heading}",
-          "fontSize": "{font.size-sm}",
+          "lineHeight": "{font.size-h4} * {line-height.heading}",
+          "fontSize": "{font.size-h4}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -68,8 +68,8 @@ module.exports = {
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-xs} * {line-height.heading}",
-          "fontSize": "{font.size-xs}",
+          "lineHeight": "{font.size-h5} * {line-height.heading}",
+          "fontSize": "{font.size-h5}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -83,8 +83,8 @@ module.exports = {
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-3xs} * {line-height.heading}",
-          "fontSize": "{font.size-3xs}",
+          "lineHeight": "{font.size-h6} * {line-height.heading}",
+          "fontSize": "{font.size-h6}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"

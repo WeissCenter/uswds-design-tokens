@@ -3016,46 +3016,6 @@
           "value": "16px",
           "type": "fontSizes",
           "description": "Base font size"
-        },
-        "h1-font-size": {
-          "value": "{size.2xl}",
-          "type": "fontSizes",
-          "description": "h2 font size"
-        },
-        "h2-font-size": {
-          "value": "{size.xl}",
-          "type": "fontSizes",
-          "description": "h3 font size"
-        },
-        "h3-font-size": {
-          "value": "{size.lg}",
-          "type": "fontSizes",
-          "description": "h4 font size"
-        },
-        "h4-font-size": {
-          "value": "{size.sm}",
-          "type": "fontSizes",
-          "description": "h5 font size"
-        },
-        "h5-font-size": {
-          "value": "{size.xs}",
-          "type": "fontSizes",
-          "description": "h6 font size"
-        },
-        "h6-font-size": {
-          "value": "{size.3xs}",
-          "type": "fontSizes",
-          "description": "Heading line height"
-        },
-        "small-font-size": {
-          "value": "{size.2xs}",
-          "type": "fontSizes",
-          "description": "Used for the smallest text on a site."
-        },
-        "display-font-size": {
-          "value": "{size.3xl}",
-          "type": "fontSizes",
-          "description": "Used for the largest text on a site."
         }
       },
       "stack": {
@@ -4462,7 +4422,7 @@
         "description": "UI element font stack"
       },
       "heading": {
-        "value": "{font.heading}",
+        "value": "{font-settings.family.public}",
         "type": "fontFamilies",
         "description": "Heading font stack"
       },
@@ -4697,8 +4657,8 @@
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-2xl} * {line-height.heading}",
-          "fontSize": "{font.size-2xl}",
+          "lineHeight": "{font.size-h1} * {line-height.heading}",
+          "fontSize": "{font.size-h1}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -4710,8 +4670,8 @@
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-xl} * {line-height.heading}",
-          "fontSize": "{font.size-xl}",
+          "lineHeight": "{font.size-h2} * {line-height.heading}",
+          "fontSize": "{font.size-h2}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -4723,8 +4683,8 @@
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-lg} * {line-height.heading}",
-          "fontSize": "{font.size-lg}",
+          "lineHeight": "{font.size-h3} * {line-height.heading}",
+          "fontSize": "{font.size-h3}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -4736,8 +4696,8 @@
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-sm} * {line-height.heading}",
-          "fontSize": "{font.size-sm}",
+          "lineHeight": "{font.size-h4} * {line-height.heading}",
+          "fontSize": "{font.size-h4}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -4749,8 +4709,8 @@
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-xs} * {line-height.heading}",
-          "fontSize": "{font.size-xs}",
+          "lineHeight": "{font.size-h5} * {line-height.heading}",
+          "fontSize": "{font.size-h5}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
@@ -4762,8 +4722,8 @@
         "value": {
           "fontFamily": "{font.heading}",
           "fontWeight": "{font.weight-bold}",
-          "lineHeight": "{font.size-3xs} * {line-height.heading}",
-          "fontSize": "{font.size-3xs}",
+          "lineHeight": "{font.size-h6} * {line-height.heading}",
+          "fontSize": "{font.size-h6}",
           "letterSpacing": "{font-settings.letter-spacing.1}",
           "paragraphSpacing": "{font-settings.paragraph-spacing.auto}",
           "textCase": "{font-settings.text-transform.normal}"
