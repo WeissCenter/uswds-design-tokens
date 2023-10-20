@@ -25,7 +25,7 @@ module.exports = {
     "heading": {
         "value": "{font-settings.family.source-sans-pro}",
         "type": "fontFamilies",
-        "description": "Heading font stack"
+        "description": "Heading font stack sans pro"
     },
     "body": {
         "value": "{font.sans}",
