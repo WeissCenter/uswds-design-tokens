@@ -191,4 +191,10 @@ module.exports = {
         "type": "fontWeights",
         "description": "Black font weight"
     },
+    // adding black for testing with figma
+    "weight-black": {
+        "value": "Black",
+        "type": "fontWeights",
+        "description": "Black font weight"
+    }
 }
