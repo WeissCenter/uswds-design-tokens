@@ -23,7 +23,7 @@ module.exports = {
         "description": "UI element font stack"
     },
     "heading": {
-        "value": "Roboto",
+        "value": "{font-settings.family.public}",
         "type": "fontFamilies",
         "description": "Heading font stack"
     },
