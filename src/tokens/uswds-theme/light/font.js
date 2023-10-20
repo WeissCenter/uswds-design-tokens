@@ -201,7 +201,7 @@ module.exports = {
         "value": {
           "fontFamily": "{font-settings.family.georgia}",
           "fontWeight": "{font.weight-normal}",
-          // "lineHeight": "{lineHeights.0}",
+          "lineHeight": "{line-height.heading}",
           "fontSize": "{font.size-2xl}"
           // "letterSpacing": "{letterSpacing.0}",
           // "paragraphSpacing": "{paragraphSpacing.0}",
