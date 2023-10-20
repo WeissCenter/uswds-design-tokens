@@ -23,7 +23,7 @@ module.exports = {
         "description": "UI element font stack"
     },
     "heading": {
-        "value": "{font-settings.family.public}",
+        "value": "{font-settings.family.source-sans-pro}",
         "type": "fontFamilies",
         "description": "Heading font stack"
     },
